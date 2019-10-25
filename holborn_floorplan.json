@@ -1,0 +1,414 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	  "id": "HRE1",
+      "title": "Holborn area",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	 {
+	  "id": "HRE2",
+      "title": "Assembly directions",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	  "id": "HRE3",
+      "title": "HRE - Floor 07",
+      "color": "#2d2d2d",
+      "show": "false"
+	 }
+	
+	],
+	"levels":[
+		
+		{
+			"id":"holborn",
+			"title":"Level selecter",
+			"map":"maps/holborn_site-01.svg",
+			"minimap": "maps/holborn_mini.jpg",
+			"locations":[
+				{
+					"id": "hre",
+					"title": "Hitachi Rail Europe",
+					"category": "HRE1",
+					"description": "Engineering, Operations and Projects Office.",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"link": "?location=hreoffice",
+					"image": "images/holborn_main.jpg",
+					"thumbnail": "images/holborn_main.jpg",
+					"zoom":"1",
+					"x": "0.34181",
+					"y": "0.4016"
+				},
+				
+				{
+					"id": "charterhouse",
+					"title": "Fire exit 01",
+					"category": "HRE2",
+					"description": "Turn LEFT and walk around the front of the building and then turn LEFT on to Holborn Viaduct. <br><i>(continue for approx 300 meters)</i> ",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/holborn_charter.jpg",
+					"thumbnail": "images/holborn_charter.jpg",
+					"zoom":"1",
+					"x": "0.3008",
+					"y": "0.3765"
+				},
+								{
+					"id": "shoe",
+					"title": "Fire exit 02",
+					"category": "HRE2",
+					"description": "Turn LEFT up Shoe lane then turn RIGHT onto Charterhouse street. <br><i>(continue for approx 50 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/holborn_shoe.jpg",
+					"thumbnail": "images/holborn_shoe.jpg",
+					"zoom":"1",
+					"x": "0.3653",
+					"y": "0.4585"
+				},
+				{
+					"id": "farringdon",
+					"title": "Farringdon street",
+					"category": "HRE2",
+					"description": "Turn RIGHT onto Farringdon street and continue towards Holbord Viaduct. <br><i>(approx 100 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/holborn_farringdon.jpg",
+					"thumbnail": "images/holborn_farringdon.jpg",
+					"zoom":"1",
+					"x": "0.4359",
+					"y": "0.2814"
+				},
+								{
+					"id": "steps",
+					"title": "Holborn Viaduct",
+					"category": "HRE2",
+					"description": "Head up the steps / lift on the RIGHT then turn RIGHT onto Holborn Viaduct.<br><i>(continue for approx 200 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/holborn_steps.jpg",
+					"thumbnail": "images/holborn_steps.jpg",
+					"zoom":"2",
+					"x": "0.4405",
+					"y": "0.5807"
+				},
+				{
+					"id": "giltspur",
+					"title": "Giltspur Street",
+					"category": "HRE2",
+					"description": "Take the second turning on the LEFT into Giltspur Street and then onto West Smithfield. <br><i>(approx 150 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/holborn_giltspur.jpg",
+					"thumbnail": "images/holborn_giltspur.jpg",
+					"zoom":"1",
+					"x": "0.7619",
+					"y": "0.9187"
+				},
+				{
+					"id": "srg",
+					"title": "Central Garden",
+					"category": "HRE2",
+					"description": "Continue CLOCKWISE around West Smithfield to reach the Central Garden entrance. <br><i>(approx 80 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/holborn_srg.jpg",
+					"thumbnail": "images/holborn_srg.jpg",
+					"zoom":"1",
+					"x": "0.8390",
+					"y": "0.2510"
+				}
+
+			]
+		},
+
+		
+		{
+			"id":"Seventhfloor",
+			"title":"HRE OFFICE - Floor 7",
+			"map":"maps/HOLBORN_floorplan-01.svg",
+			"minimap": "maps/holborn_seventhfloor_mini.jpg",
+			"locations":[
+			
+				{
+					"id": "hreoffice",
+					"title": "HRE - Floor 7",
+					"category": "HRE3",
+					"description": "",
+					"show":"false",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				},				
+				{
+					"id": "reception",
+					"title": "Reception",
+					"category": "HRE3",
+					"description": "Reception desk and waiting area",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_reception.jpg",
+					"thumbnail": "images/holborn_reception.jpg",
+					"fill": "#FF0026",
+					"zoom":"0.7",
+					"x": "0.3598",
+					"y": "0.5311"
+				},
+				{
+					"id": "northoffice",
+					"title": "North office",
+					"category": "HRE3",
+					"description": "Facilities, procurement, Engineering, Projects, and Operations.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_officenorth.jpg",
+					"thumbnail": "images/holborn_officenorth.jpg",
+					"fill": "#FF0026",
+					"zoom":"0.7",
+					"x": "0.4735",
+					"y": "0.1930"
+				},
+				{
+					"id": "southoffice",
+					"title": "South office",
+					"category": "HRE3",
+					"description": "I.T. and HR.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_officesouth.jpg",
+					"thumbnail": "images/holborn_officesouth.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.4568",
+					"y": "0.8350"
+				},
+				
+				{
+					"id": "project",
+					"title": "Project room",
+					"category": "HRE3",
+					"description": "Seats 12, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_project.jpg",
+					"thumbnail": "images/holborn_project.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.6201",
+					"y": "0.8890"
+				},
+				
+				{
+					"id": "kitchenwest",
+					"title": "Kitchen - West",
+					"category": "HRE3",
+					"description": "Hot and cold drinks, food preperation, soft seating, and waste receptacles",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_kitchenwest.jpg",
+					"thumbnail": "images/holborn_kitchenwest.jpg",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.2531",
+					"y": "0.9060"
+				},
+				
+				{
+					"id": "kitcheneast",
+					"title": "Kitchen - East",
+					"category": "HRE3",
+					"description": "Hot and cold drinks, food preperation, seating, and waste receptacles",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_kitcheneast.jpg",
+					"thumbnail": "images/holborn_kitcheneast.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7955",
+					"y": "0.8494"
+				},
+				
+				{
+					"id": "meeting1",
+					"title": "Room 01 - Kyushu",
+					"category": "HRE3",
+					"description": "Seats 9, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room1.jpg",
+					"thumbnail": "images/holborn_room1.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.2905",
+					"y": "0.4114"
+				},
+				{
+					"id": "meeting2",
+					"title": "Room 02 - Kobe",
+					"category": "HRE3",
+					"description": "Seats 6, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room2.jpg",
+					"thumbnail": "images/holborn_room2.jpg",
+					"fill": "#FF0026",
+					"zoom":"2.5",
+					"x": "0.2690",
+					"y": "0.4990"
+				},
+				{
+					"id": "meeting3",
+					"title": "Room 03 - Osaka",
+					"category": "HRE3",
+					"description": "Seats 6, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room3.jpg",
+					"thumbnail": "images/holborn_room3.jpg",
+					"fill": "#FF0026",
+					"zoom":"2.5",
+					"x": "0.2639",
+					"y": "0.5590"
+				},
+				{
+					"id": "meeting4",
+					"title": "Room 04 - Nagoya",
+					"category": "HRE3",
+					"description": "Seats 6, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room4.jpg",
+					"thumbnail": "images/holborn_room4.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.2654",
+					"y": "0.6200"
+				},
+				{
+					"id": "meeting5",
+					"title": "Room 05 - Honshu",
+					"category": "HRE3",
+					"description": "Seats 6, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room5.jpg",
+					"thumbnail": "images/holborn_room5.jpg",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.2632",
+					"y": "0.6800"
+				},
+				{
+					"id": "meeting6",
+					"title": "Room 06 - Shikoku",
+					"category": "HRE3",
+					"description": "Seats 6, digital projector, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room6.jpg",
+					"thumbnail": "images/holborn_room6.jpg",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.2604",
+					"y": "0.7350"
+				},
+				{
+					"id": "meeting7",
+					"title": "Room 07 - Tokyo",
+					"category": "HRE3",
+					"description": "Seats 12, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room7.jpg",
+					"thumbnail": "images/holborn_room7.jpg",
+					"fill": "#FF0026",
+					"zoom":"1.5",
+					"x": "0.2519",
+					"y": "0.8020"
+				},
+				{
+					"id": "meeting8",
+					"title": "Room 08 - Yokohama",
+					"category": "HRE3",
+					"description": "Seats 6, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room8.jpg",
+					"thumbnail": "images/holborn_room8.jpg",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.3481",
+					"y": "0.6288"
+				},
+				{
+					"id": "meeting9",
+					"title": "Room 09 - Sendai",
+					"category": "HRE3",
+					"description": "Seats 12, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room9.jpg",
+					"thumbnail": "images/holborn_room9.jpg",
+					"fill": "#FF0026",
+					"zoom":"1.5",
+					"x": "0.3472",
+					"y": "0.7100"
+				},
+				{
+					"id": "meeting10",
+					"title": "Room 10 - Sapporo",
+					"category": "HRE3",
+					"description": "Seats 4, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room10.jpg",
+					"thumbnail": "images/holborn_room10.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.2908",
+					"y": "0.3352"
+				},
+				{
+					"id": "meeting11",
+					"title": "Room 11 - Hokkaido",
+					"category": "HRE3",
+					"description": "Seats 4, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room11.jpg",
+					"thumbnail": "images/holborn_room11.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3101",
+					"y": "0.2800"
+				},
+				{
+					"id": "meeting12",
+					"title": "Room 12 - Otaru",
+					"category": "HRE3",
+					"description": "Seats 10, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room12.jpg",
+					"thumbnail": "images/holborn_room12.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5696",
+					"y": "0.8671"
+				}
+			]
+	
+		}
+		
+
+	]
+}

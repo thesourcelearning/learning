@@ -1,0 +1,225 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	     "id": "site",
+      "title": "Ashford site",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	{
+	     "id": "tmcgroundfloor",
+      "title": "TMC - Ground floor",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	     "id": "tmcfirstfloor",
+      "title": "TMC - First floor",
+      "color": "#2d2d2d",
+      "show": "false"
+	 }
+	],
+	"levels":[
+		
+		{
+			"id":"ashford",
+			"title":"Level selecter",
+			"map":"maps/ASHFORD_02-01.svg",
+			"minimap": "maps/ashford_mini.jpg",
+			"locations":[
+				{
+					"id": "main",
+					"title": "TMC main building",
+					"category": "site",
+					"description": "The main building contains all of the facilities and equipment to maintain the class 395 fleet.",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"link": "?location=tmcground",
+					"image": "images/ashford_main.jpg",
+					"thumbnail": "images/ashford_main.jpg",
+					"zoom":"2",
+					"x": "0.6471",
+					"y": "0.4130"
+				},
+				
+				{
+					"id": "lathe",
+					"title": "Wheel lathe",
+					"category": "site",
+					"description": "Lathe for the turning train wheels to maintain the correct wheel profile.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ashford_lathe.jpg",
+					"thumbnail": "images/ashford_lathe.jpg",
+					"zoom":"2",
+					"x": "0.2354",
+					"y": "0.8000"
+				},
+				{
+					"id": "shunt",
+					"title": "TMTL building",
+					"category": "site",
+					"description": "Accommodation for the Hitachi Train movement team leaders and external shunting staff.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ashford_shunters.jpg",
+					"thumbnail": "images/ashford_shunters.jpg",
+					"zoom":"2",
+					"x": "0.2907",
+					"y": "0.5580"
+				},
+				
+	
+				{
+					"id": "cleaners",
+					"title": "Cleaners facility",
+					"category": "site",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"thumbnail": "images/ashford_cleaners.jpg",
+					"zoom":"3",
+					"x": "0.8507",
+					"y": "0.2027"
+				}
+			]
+		},
+
+		
+		{
+			"id":"Groundfloor",
+			"title":"TMC - Ground floor",
+			"map":"maps/ASHFORD_floorplan_01.svg",
+			"minimap": "maps/ashford_groundfloor_mini.jpg",
+			"locations":[
+			
+				{
+					"id": "tmcground",
+					"title": "TMC - Ground floor",
+					"category": "tmcgroundfloor",
+					"description": "",
+					"show":"false",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				},				
+				{
+					"id": "reception",
+					"title": "TMC - Reception",
+					"category": "tmcgroundfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.9171",
+					"y": "0.3230"
+				},
+				{
+					"id": "canteen",
+					"title": "TMC - Canteen",
+					"category": "tmcgroundfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.8571",
+					"y": "0.3930"
+				},
+				{
+					"id": "opsengoffice",
+					"title": "TMC - Ops & Eng office",
+					"category": "tmcgroundfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5951",
+					"y": "0.2999"
+				},
+				{
+					"id": "stores",
+					"title": "TMC - Stores",
+					"category": "tmcgroundfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3300",
+					"y": "0.3400"
+				},
+				{
+					"id": "mainshed",
+					"title": "TMC - Main shed",
+					"category": "tmcgroundfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.3",
+					"x": "0.3801",
+					"y": "0.6300"
+				}
+			]
+	
+		},
+		
+		
+		
+		
+		{
+			"id":"FirstFloor",
+			"title":"TMC - First floor",
+			"map":"maps/ASHFORD_floorplan_02.svg",
+			"minimap": "maps/ashford_firstfloor_mini.jpg",
+			"locations":[
+			 	{
+					"id": "conferenceroom",
+					"title": "TMC - Conference room",
+					"category": "tmcfirstfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.5",
+					"x": "0.8251",
+					"y": "0.4200"
+				},
+				{
+					"id": "mezzaninelevel",
+					"title": "TMC - Mezzanine Level",
+					"category": "tmcfirstfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.8",
+					"x": "0.4600",
+					"y": "0.3800"
+				},
+				{
+					"id": "firstflooroffices",
+					"title": "TMC - First floor offices",
+					"category": "tmcfirstfloor",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.8",
+					"x": "0.6901",
+					"y": "0.4500"
+				}
+			]
+	
+		}
+	]
+}

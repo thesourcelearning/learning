@@ -1,0 +1,385 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	  "id": "HRE1",
+      "title": "Ludgate area",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	 {
+	  "id": "HRE2",
+      "title": "Assembly directions",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	  "id": "HRE3",
+      "title": "HRE - Floor 7",
+      "color": "#2d2d2d",
+      "show": "false"
+	 }
+	
+	],
+	"levels":[
+		
+		{
+			"id":"ludgate",
+			"title":"Level selecter",
+			"map":"maps/ludgate_site-01.svg",
+			"minimap": "maps/ludgate_mini.jpg",
+			"locations":[
+				{
+					"id": "hre",
+					"title": "Hitachi Rail Europe",
+					"category": "HRE1",
+					"description": "Global Head Office.",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"link": "?location=hreoffice",
+					"image": "images/ludgate_main.jpg",
+					"thumbnail": "images/ludgate_main.jpg",
+					"zoom":"1",
+					"x": "0.34181",
+					"y": "0.4016"
+				},
+				
+				{
+					"id": "exit1",
+					"title": "Fire exit 01",
+					"category": "HRE2",
+					"description": "Turn LEFT and walk around the front of the building and then turn LEFT onto Ludgate Hill. <br><i>(continue for approx 150 meters)</i> ",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ludgate_exit1.jpg",
+					"thumbnail": "images/ludgate_exit1.jpg",
+					"zoom":"1",
+					"x": "0.2557",
+					"y": "0.4341"
+				},
+				{
+					"id": "exit2",
+					"title": "Fire exit 02",
+					"category": "HRE2",
+					"description": "Turn RIGHT and head across the courtyard to Old Bailey<br><i>(approx 30 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ludgate_exit2.jpg",
+					"thumbnail": "images/ludgate_exit2.jpg",
+					"zoom":"1",
+					"x": "0.3338",
+					"y": "0.4046"
+				},
+				{
+					"id": "old",
+					"title": "Old Bailey",
+					"category": "HRE2",
+					"description": "Continue to the RIGHT and then head LEFT onto Ludgate Hill . <br><i>(approx 150 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ludgate_old.jpg",
+					"thumbnail": "images/ludgate_old.jpg",
+					"zoom":"1",
+					"x": "0.4192",
+					"y": "0.4694"
+				},
+								{
+					"id": "maria",
+					"title": "St Maria lane",
+					"category": "HRE2",
+					"description": "Turn LEFT to head up Ave Maria Lane<br><i>(continue for approx 50 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ludgate_maria.jpg",
+					"thumbnail": "images/ludgate_maria.jpg",
+					"zoom":"2",
+					"x": "0.6551",
+					"y": "0.7565"
+				},
+				{
+					"id": "vents",
+					"title": "Paternoster Vents",
+					"category": "HRE2",
+					"description": "Turn RIGHT to enter the Paternoster Vents courtyard. Assemble to the RIGHT of the statue. <br><i>(approx 150 meters)</i>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ludgate_vents.jpg",
+					"thumbnail": "images/ludgate_vents.jpg",
+					"zoom":"1",
+					"x": "0.7025",
+					"y": "0.5117"
+				}
+
+			]
+		},
+
+		
+		{
+			"id":"Tenthfloor",
+			"title":"HRE OFFICE - Floor 7",
+			"map":"maps/LUDGATE_floorplan-01.svg",
+			"minimap": "maps/ludgate_seventhfloor_mini.jpg",
+			"locations":[
+			
+				{
+					"id": "hreoffice",
+					"title": "HRE - Floor 7",
+					"category": "HRE3",
+					"description": "",
+					"show":"false",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				},				
+				{
+					"id": "reception",
+					"title": "Reception",
+					"category": "HRE3",
+					"description": "Reception desk and waiting area",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_reception.jpg",
+					"thumbnail": "images/lud_reception.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5007",
+					"y": "0.8730"
+				},
+				{
+					"id": "northoffice",
+					"title": "North office",
+					"category": "HRE3",
+					"description": "Comms, Legal, HR, Commercial, Sales, and Finance.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_officenorth.jpg",
+					"thumbnail": "images/lud_officenorth.jpg",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.5000",
+					"y": "0.3095"
+				},
+				{
+					"id": "westoffice",
+					"title": "West office",
+					"category": "HRE3",
+					"description": "Global, CDO, I.T., and Marketing.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_officewest.jpg",
+					"thumbnail": "images/lud_officewest.jpg",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.2802",
+					"y": "0.5002"
+				},
+				{
+					"id": "breakout",
+					"title": "Breakout area",
+					"category": "HRE3",
+					"description": "Ping-pong, soft seating, and display screens.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_breakout.jpg",
+					"thumbnail": "images/lud_breakout.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7330",
+					"y": "0.8542"
+				},
+
+				
+				{
+					"id": "kitchen",
+					"title": "Kitchen area",
+					"category": "HRE3",
+					"description": "Hot and cold drinks, food preperation, and waste receptacles",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_kitchen.jpg",
+					"thumbnail": "images/lud_kitchen.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7174",
+					"y": "0.6780"
+				},
+				{
+					"id": "meeting1",
+					"title": "Room 01 - Tottori",
+					"category": "HRE3",
+					"description": "Seats 4, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room1.jpg",
+					"thumbnail": "images/lud_room1.jpg",
+					"fill": "#FF0026",
+					"zoom":"2.5",
+					"x": "0.5202",
+					"y": "0.7790"
+				},
+				{
+					"id": "meeting2",
+					"title": "Room 02 - Ishikawa",
+					"category": "HRE3",
+					"description": "Seats 4, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room2.jpg",
+					"thumbnail": "images/lud_room2.jpg",
+					"fill": "#FF0026",
+					"zoom":"2.5",
+					"x": "0.5627",
+					"y": "0.7790"
+				},
+				{
+					"id": "meeting3",
+					"title": "Room 03 - Mie",
+					"category": "HRE3",
+					"description": "Seats 4, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room3.jpg",
+					"thumbnail": "images/lud_room3.jpg",
+					"fill": "#FF0026",
+					"zoom":"2.5",
+					"x": "0.5946",
+					"y": "0.7790"
+				},
+				{
+					"id": "meeting4",
+					"title": "Room 04 - Toyama",
+					"category": "HRE3",
+					"description": "Seats 6, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room4.jpg",
+					"thumbnail": "images/lud_room4.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.6352",
+					"y": "0.7790"
+				},
+				{
+					"id": "meeting5",
+					"title": "Room 05 - Nara",
+					"category": "HRE3",
+					"description": "Seats 6, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room5.jpg",
+					"thumbnail": "images/lud_room5.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.6144",
+					"y": "0.8876"
+				},
+				{
+					"id": "meeting6",
+					"title": "Room 06 - Miyagi",
+					"category": "HRE3",
+					"description": "Seats 8, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room6.jpg",
+					"thumbnail": "images/lud_room6.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5718",
+					"y": "0.8876"
+				},
+				{
+					"id": "meeting7",
+					"title": "Room 07 - Ibaraki",
+					"category": "HRE3",
+					"description": "Seats 12, double display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room7.jpg",
+					"thumbnail": "images/lud_room7.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.4075",
+					"y": "0.8876"
+				},
+				{
+					"id": "meeting8",
+					"title": "Room 08 - Niigata",
+					"category": "HRE3",
+					"description": "Seats 6, double display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room8.jpg",
+					"thumbnail": "images/lud_room8.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3460",
+					"y": "0.8876"
+				},
+				{
+					"id": "meeting9",
+					"title": "Room 09 - Kagoshima",
+					"category": "HRE3",
+					"description": "Seats 2, speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room9.jpg",
+					"thumbnail": "images/lud_room9.jpg",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.3380",
+					"y": "0.7550"
+				},
+				{
+					"id": "meeting10",
+					"title": "Room 10 - Fukuoka",
+					"category": "HRE3",
+					"description": "Seats 2, speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room10.jpg",
+					"thumbnail": "images/lud_room10.jpg",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.3360",
+					"y": "0.6460"
+				},
+				{
+					"id": "meeting11",
+					"title": "Room 11 - Fukuoka",
+					"category": "HRE3",
+					"description": "Seats 4, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room11.jpg",
+					"thumbnail": "images/lud_room11.jpg",
+					"fill": "#FF0026",
+					"zoom":"2.5",
+					"x": "0.3360",
+					"y": "0.5909"
+				},
+				{
+					"id": "meeting12",
+					"title": "Room 12 - Akita",
+					"category": "HRE3",
+					"description": "Seats 4, display screen, and video conference.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room12.jpg",
+					"thumbnail": "images/lud_room12.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.6272",
+					"y": "0.5786"
+				}
+			]
+	
+		}
+		
+
+	]
+}

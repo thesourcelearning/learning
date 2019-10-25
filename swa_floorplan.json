@@ -1,0 +1,267 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	     "id": "swasite",
+      "title": "Swansea site",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	{
+	     "id": "TMC1",
+      "title": "Main Building - Ground floor",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	  "id": "TMC2",
+      "title": "Main Building - First floor",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	     "id": "Shed",
+      "title": "Maintenance Shed",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	  "id": "Wash",
+      "title": "Train Wash",
+      "color": "#2d2d2d",
+      "show": "false"
+	 }
+	],
+	"levels":[
+	
+	{
+			"id":"swa",
+			"title":"Level selecter",
+			"map":"maps/swa_site-01.svg",
+			"minimap": "maps/swa_mini.jpg",
+			"locations":[
+				
+			
+				{
+					"id": "main",
+					"title": "Main building",
+					"category": "swasite",
+					"description": "The main building houses our offices, locker rooms, and the canteen.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "",
+					"thumbnail": "",
+					"link": "?location=tmcoffice",
+					"zoom":"1.5",
+					"x": "0.6675",
+					"y": "0.4390"
+				},
+				{
+					"id": "shed",
+					"title": "Maintenance shed",
+					"category": "swasite",
+					"description": "The maintenance shed contains facilities and equipment to maintain the class 800 fleet.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "",
+					"thumbnail": "",
+					"link": "?location=Maint",
+					"zoom":"1.5",
+					"x": "0.7201",
+					"y": "0.3322"
+					
+				},
+				{
+					"id": "trainwash",
+					"title": "Train wash",
+					"category": "swasite",
+					"description": "The drive through train washes comprise a set of spray arches and brushes designed to wash and rinse rolling stock.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "",
+					"thumbnail": "",
+					"link": "?location=Twash",
+					"zoom":"2",
+					"x": "0.8245",
+					"y": "0.1632"
+					
+				}
+				
+			]
+		},
+
+		
+		{
+			"id":"Groundfloor",
+			"title":"Main Building - Ground Floor",
+			"map":"maps/SWA_main_ground-01.svg",
+			"minimap": "maps/SWA_main_ground_mini.jpg",
+			"locations":[
+			
+				{
+					"id": "tmcoffice",
+					"title": "TMC - Ground floor",
+					"category": "TMC1",
+					"description": "",
+					"show":"false",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				},				
+				{
+					"id": "reception",
+					"title": "Reception",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.5703",
+					"y": "0.3824"
+				},
+				{
+					"id": "canteen",
+					"title": "Canteen",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.7995",
+					"y": "0.5568"
+				},
+				{
+					"id": "ops",
+					"title": "Operations room",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.4082",
+					"y": "0.5431"
+				},
+				
+				{
+					"id": "meetingroome",
+					"title": "Meeting room E",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.2695",
+					"y": "0.6366"
+				},
+ 
+				{
+					"id": "LOPS",
+					"title": "LOPS Office",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.3879",
+					"y": "0.6709"
+				}
+			
+			]
+	
+		},
+		
+	
+		
+		{
+			"id":"FirstFloor",
+			"title":"Main Building - First Floor",
+			"map":"maps/swa_main_first.svg",
+			"minimap": "maps/SWA_main_first_mini.jpg",
+			"locations":[
+				{
+					"id": "First",
+					"title": "Main Building - First Floor",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				}
+				
+				
+			]
+	
+		},
+		
+		
+		
+		
+		
+		{
+			"id":"Shed",
+			"title":"Maintenance Shed",
+			"map":"maps/swa_shed-01.svg",
+			"minimap": "maps/SWA_shed_mini.jpg",
+			"locations":[
+				{
+					"id": "Maint",
+					"title": "Maintenance Shed",
+					"category": "Shed",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				}
+				
+				
+			]
+	
+		},
+		
+				{
+			"id":"Wash",
+			"title":"Train Wash",
+			"map":"maps/swa_wash-01.svg",
+			"minimap": "maps/SWA_wash_mini.jpg",
+			"locations":[
+				{
+					"id": "Twash",
+					"title": "Train Wash",
+					"category": "Wash",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				}
+				
+				
+			]
+	
+		}
+		
+		
+		
+		
+		
+		
+		
+	]
+}
