@@ -30,26 +30,54 @@
 	"levels":[
 		
 		{
-			"id":"nay",
+			"id":"skg",
 			"title":"Level selecter",
-			"map":"maps/nay_site-01.svg",
-			"minimap": "maps/nay_mini.jpg",
+			"map":"maps/skg_site-01.svg",
+			"minimap": "maps/skg_mini.jpg",
 			"locations":[
+				
+			
 				{
-					"id": "office",
-					"title": "Offices area",
-					"category": "naysite",
-					"description": "3 floors consisting of office based departments and meeting spaces.",
+					"id": "main",
+					"title": "TMC - Main building",
+					"category": "skgsite",
+					"description": "The main building contains all of the facilities and equipment to maintain the class 800 fleet.",
 					"pin": "hidden",
-					"about":"",
-					"show":"false",
 					"fill": "#FF0026",
+					"image": "images/skg_main.jpg",
+					"thumbnail": "images/skg_main.jpg",
 					"link": "?location=tmcoffice",
-					"image": "images/nay_office.jpg",
-					"thumbnail": "images/nay_office.jpg",
 					"zoom":"1",
-					"x": "0.4871",
-					"y": "0.4220"
+					"x": "0.4303",
+					"y": "0.6004"
+				},
+				{
+					"id": "banana",
+					"title": "Wheel lathe",
+					"category": "skgsite",
+					"description": "Lathe for the turning train wheels to maintain the correct wheel profile.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/skg_lathe.jpg",
+					"thumbnail": "images/skg_lathe.jpg",
+					"zoom":"2",
+					"x": "0.8734",
+					"y": "0.1250"
+					
+				},
+				{
+					"id": "trainwash",
+					"title": "Train wash",
+					"category": "skgsite",
+					"description": "The drive through train washes comprise a set of spray arches and brushes designed to wash and rinse rolling stock.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/skg_wash.jpg",
+					"thumbnail": "images/skg_wash.jpg",
+					"zoom":"2",
+					"x": "0.6803",
+					"y": "0.4730"
+					
 				}
 				
 			]
