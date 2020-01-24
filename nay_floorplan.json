@@ -32,7 +32,7 @@
 		{
 			"id":"nay",
 			"title":"Level selecter",
-			"map":"maps/nay_site-01.svg",
+			"map":"maps/Nay_site-01.svg",
 			"minimap": "maps/nay_mini.jpg",
 			"locations":[
 				{
