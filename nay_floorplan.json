@@ -19,7 +19,7 @@
       "title": "TMC - First floor",
       "color": "#2d2d2d",
       "show": "false"
-	 },
+	 }
 	 {
 	  "id": "TMC3",
       "title": "TMC - Second floor",
@@ -32,7 +32,7 @@
 		{
 			"id":"nay",
 			"title":"Level selecter",
-			"map":"maps/Nay_site-01.svg",
+			"map":"maps/nay_site-01.svg",
 			"minimap": "maps/nay_mini.jpg",
 			"locations":[
 				{
