@@ -19,7 +19,7 @@
       "title": "TMC - First floor",
       "color": "#2d2d2d",
       "show": "false"
-	 },
+	 }
 	 {
 	  "id": "TMC3",
       "title": "TMC - Second floor",
@@ -30,54 +30,108 @@
 	"levels":[
 		
 		{
-			"id":"skg",
+			"id":"nay",
 			"title":"Level selecter",
-			"map":"maps/skg_site-01.svg",
-			"minimap": "maps/skg_mini.jpg",
+			"map":"maps/nay_site-01.svg",
+			"minimap": "maps/nay_mini.jpg",
 			"locations":[
-				
-			
 				{
-					"id": "main",
-					"title": "TMC - Main building",
-					"category": "skgsite",
-					"description": "The main building contains all of the facilities and equipment to maintain the class 800 fleet.",
+					"id": "office",
+					"title": "Offices area",
+					"category": "naysite",
+					"description": "3 floors consisting of office based departments and meeting spaces.",
 					"pin": "hidden",
+					"about":"",
+					"show":"false",
 					"fill": "#FF0026",
-					"image": "images/skg_main.jpg",
-					"thumbnail": "images/skg_main.jpg",
 					"link": "?location=tmcoffice",
+					"image": "images/nay_office.jpg",
+					"thumbnail": "images/nay_office.jpg",
 					"zoom":"1",
-					"x": "0.4303",
-					"y": "0.6004"
+					"x": "0.4871",
+					"y": "0.4220"
 				},
+				
 				{
-					"id": "banana",
-					"title": "Wheel lathe",
-					"category": "skgsite",
-					"description": "Lathe for the turning train wheels to maintain the correct wheel profile.",
+					"id": "warehouse",
+					"title": "Warehouse",
+					"category": "naysite",
+					"description": "Goods in, line feed and picking operations, warehouse manager office and waste management team.",
 					"pin": "hidden",
 					"fill": "#FF0026",
-					"image": "images/skg_lathe.jpg",
-					"thumbnail": "images/skg_lathe.jpg",
-					"zoom":"2",
-					"x": "0.8734",
-					"y": "0.1250"
-					
+					"link": "?location=tmcwarehouse",
+					"image": "images/nay_warehouse.jpg",
+					"thumbnail": "images/nay_warehouse.jpg",
+					"zoom":"1",
+					"x": "0.3600",
+					"y": "0.3400"
 				},
 				{
-					"id": "trainwash",
-					"title": "Train wash",
-					"category": "skgsite",
-					"description": "The drive through train washes comprise a set of spray arches and brushes designed to wash and rinse rolling stock.",
+					"id": "manufacturing",
+					"title": "Manufacturing area",
+					"category": "naysite",
+					"description": "Train car manufacturing area, quality office and paint spray facility",
 					"pin": "hidden",
 					"fill": "#FF0026",
-					"image": "images/skg_wash.jpg",
-					"thumbnail": "images/skg_wash.jpg",
-					"zoom":"2",
-					"x": "0.6803",
-					"y": "0.4730"
-					
+					"link": "?location=tmcmanu",
+					"image": "images/nay_manu.jpg",
+					"thumbnail": "images/nay_manu.jpg",
+					"zoom":"1",
+					"x": "0.3600",
+					"y": "0.2300"
+				},
+				{
+					"id": "testhouse",
+					"title": "Test house",
+					"category": "naysite",
+					"description": "Testing and commissioning operations area where OLE high voltage is in use.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"link": "?location=tmctesthouse",
+					"image": "images/nay_testhouse.jpg",
+					"thumbnail": "images/nay_testhouse.jpg",
+					"zoom":"1",
+					"x": "0.6407",
+					"y": "0.2700"
+				},
+				{
+					"id": "aspire",
+					"title": "ASPIRE building",
+					"category": "naysite",
+					"description": "Shared area used by manufacturing and testing departments.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/nay_aspire.jpg",
+					"thumbnail": "images/nay_aspire.jpg",
+					"zoom":"1",
+					"x": "0.2407",
+					"y": "0.1500"
+				},
+				{
+					"id": "ppw",
+					"title": "PPW building",
+					"category": "naysite",
+					"description": "Post Production Work area",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/nay_ppw.jpg",
+					"thumbnail": "images/nay_ppw.jpg",
+					"zoom":"1",
+					"x": "0.4507",
+					"y": "0.1320"
+				},
+				{
+					"id": "gate",
+					"title": "Gate house",
+					"category": "naysite",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/nay_gatehouse.jpg",
+					"thumbnail": "images/nay_gatehouse.jpg",
+					"zoom":"1",
+					"x": "0.6407",
+					"y": "0.6980"
 				}
 				
 			]
