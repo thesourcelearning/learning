@@ -81,7 +81,7 @@
 		{
 			"id":"Groundfloor",
 			"title":"Main Building - Ground Floor",
-			"map":"maps/skgbanana.svg",
+			"map":"maps/skgfloorplanone.svg",
 			"minimap": "maps/skg_groundfloor_mini.jpg",
 			"locations":[
 			
@@ -281,7 +281,7 @@
 		{
 			"id":"FirstFloor",
 			"title":"Offices - First Floor",
-			"map":"maps/skg_floorplan_02.svg",
+			"map":"maps/skgfloorplantwo.svg",
 			"minimap": "maps/skg_firstfloor_mini.jpg",
 			"locations":[
 				{
