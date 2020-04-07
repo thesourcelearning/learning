@@ -81,7 +81,7 @@
 		{
 			"id":"Groundfloor",
 			"title":"Main Building - Ground Floor",
-			"map":"maps/skg_floorplan_01.svg",
+			"map":"maps/skgbanana.svg",
 			"minimap": "maps/skg_groundfloor_mini.jpg",
 			"locations":[
 			
