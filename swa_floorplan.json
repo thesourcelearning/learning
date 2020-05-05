@@ -184,7 +184,7 @@
 		{
 			"id":"FirstFloor",
 			"title":"Main Building - First Floor",
-			"map":"maps/swa_main_first_1.svg",
+			"map":"maps/SWA_main_first_01.svg",
 			"minimap": "maps/SWA_main_first_mini.jpg",
 			"locations":[
 				{
