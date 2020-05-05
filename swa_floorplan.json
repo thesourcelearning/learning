@@ -212,7 +212,7 @@
 		{
 			"id":"Shed",
 			"title":"Maintenance Shed",
-			"map":"maps/swashedone.svg",
+			"map":"maps/SWA_shed-01_1.svg",
 			"minimap": "maps/SWA_shed_mini.jpg",
 			"locations":[
 				{
@@ -236,7 +236,7 @@
 				{
 			"id":"Wash",
 			"title":"Train Wash",
-			"map":"maps/swawashone.svg",
+			"map":"maps/SWA_wash-01_1.svg",
 			"minimap": "maps/SWA_wash_mini.jpg",
 			"locations":[
 				{
