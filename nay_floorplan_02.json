@@ -1,0 +1,638 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	     "id": "naysite",
+      "title": "Newton Aycliffe site",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	{
+	     "id": "TMC1",
+      "title": "TMC - Ground floor",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	  "id": "TMC2",
+      "title": "TMC - First floor",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	  "id": "TMC3",
+      "title": "TMC - Second floor",
+      "color": "#2d2d2d",
+      "show": "false"
+	 }
+	],
+	"levels":[
+		
+		{
+			"id":"nay",
+			"title":"Level selecter",
+			"map":"maps/NAY_site-01.02.svg",
+			"minimap": "maps/nay_mini.jpg",
+			"locations":[
+				{
+					"id": "office",
+					"title": "Offices area",
+					"category": "naysite",
+					"description": "3 floors consisting of office based departments and meeting spaces.",
+					"pin": "hidden",
+					"about":"",
+					"show":"false",
+					"fill": "#FF0026",
+					"link": "?location=tmcoffice",
+					"image": "images/nay_office.jpg",
+					"thumbnail": "images/nay_office.jpg",
+					"zoom":"1",
+					"x": "0.4871",
+					"y": "0.4220"
+				},
+				{
+					"id": "FM",
+					"title": "Facilities Building",
+					"category": "naysite",
+					"description": "Facilities and Maintenance building",
+					"pin": "hidden",
+					"about":"",
+					"show":"false",
+					"fill": "#FF0026",
+					"link": "",
+					"image": "images/nay_fm.jpg",
+					"thumbnail": "images/nay_fm.jpg",
+					"zoom":"1",
+					"x": "0.6371",
+					"y": "0.3420"
+				},
+				
+				{
+					"id": "OnWH",
+					"title": "On Site Warehouse",
+					"category": "naysite",
+					"description": "Goods in, line feed and picking operations, warehouse manager office and waste management team.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"link": "?location=tmcwarehouse",
+					"image": "images/nay_warehouse2.jpg",
+					"thumbnail": "images/nay_warehouse2.jpg",
+					"zoom":"1",
+					"x": "0.5600",
+					"y": "0.3200"
+				},
+				{
+					"id": "weld",
+					"title": "Car Body Weld",
+					"category": "naysite",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"link": "?location=Weld",
+					"image": "images/nay_weld.jpg",
+					"thumbnail": "images/nay_weld.jpg",
+					"zoom":"1",
+					"x": "0.3600",
+					"y": "0.3400"
+				},
+				{
+					"id": "manufacturing",
+					"title": "Manufacturing area",
+					"category": "naysite",
+					"description": "Train car manufacturing area, quality office and paint spray facility",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"link": "?location=tmcmanu",
+					"image": "images/nay_manu.jpg",
+					"thumbnail": "images/nay_manu.jpg",
+					"zoom":"1",
+					"x": "0.3600",
+					"y": "0.2300"
+				},
+				{
+					"id": "testhouse",
+					"title": "Test house",
+					"category": "naysite",
+					"description": "Testing and commissioning operations area where OLE high voltage is in use.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"link": "?location=tmctesthouse",
+					"image": "images/nay_testhouse.jpg",
+					"thumbnail": "images/nay_testhouse.jpg",
+					"zoom":"1",
+					"x": "0.6407",
+					"y": "0.2700"
+				},
+				{
+					"id": "aspire",
+					"title": "ASPIRE building",
+					"category": "naysite",
+					"description": "Shared area used by manufacturing and testing departments.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/nay_aspire.jpg",
+					"thumbnail": "images/nay_aspire.jpg",
+					"zoom":"1",
+					"x": "0.2407",
+					"y": "0.1500"
+				},
+				{
+					"id": "ppw",
+					"title": "PPW building",
+					"category": "naysite",
+					"description": "Post Production Work area",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/nay_ppw.jpg",
+					"thumbnail": "images/nay_ppw.jpg",
+					"zoom":"1",
+					"x": "0.4507",
+					"y": "0.1320"
+				},
+				{
+					"id": "offWH",
+					"title": "Off site warehouses",
+					"category": "naysite",
+					"description": "<a href=''https://goo.gl/maps/MZdPZxktw9ABq4ei8' target=_'blank'>Unit 9 Warehouse</a> and <a href=''https://goo.gl/maps/t55rMMmtv9d1neyL7' target=_'blank'>Grindon Way Warehouse</a>",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/nay_offWH.jpg",
+					"thumbnail": "images/nay_offWH.jpg",
+					"zoom":"1",
+					"x": "0.8207",
+					"y": "0.7320"
+				},
+				{
+					"id": "gate",
+					"title": "Gate house",
+					"category": "naysite",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/nay_gatehouse.jpg",
+					"thumbnail": "images/nay_gatehouse.jpg",
+					"zoom":"1",
+					"x": "0.6407",
+					"y": "0.6980"
+				}
+				
+			]
+		},
+
+		
+		{
+			"id":"Groundfloor",
+			"title":"Main Building - Ground Floor",
+			"map":"maps/NAY_floorplan_01.02.svg",
+			"minimap": "maps/nay_groundfloor_mini.jpg",
+			"locations":[
+			
+				{
+					"id": "tmcoffice",
+					"title": "Ground floor offices",
+					"category": "TMC1",
+					"description": "",
+					"show":"false",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.5",
+					"x": "0.7477",
+					"y": "0.8210"
+				},				
+				{
+					"id": "reception",
+					"title": "Reception",
+					"category": "TMC1",
+					"thumbnail": "images/nay_reception.jpg",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7751",
+					"y": "0.7780"
+				},
+				{
+					"id": "canteen",
+					"title": "Canteen",
+					"category": "TMC1",
+					"thumbnail": "images/nay_canteen.jpg",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7751",
+					"y": "0.8144"
+				},
+				{
+					"id": "Interviewrooms",
+					"title": "Interview rooms 1-4",
+					"category": "TMC1",
+					"thumbnail": "images/nay_interview.jpg",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7792",
+					"y": "0.7550"
+				},
+				
+				{
+					"id": "facilitiesoffice",
+					"title": "Facilities office",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.7118",
+					"y": "0.7885"
+				},
+				
+				{
+					"id": "vip",
+					"title": "VIP room",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.7494",
+					"y": "0.7910"
+				},
+				
+				{
+					"id": "tmcwarehouse",
+					"title": "On Site Warehouse",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.7528",
+					"y": "0.4150"
+				},
+			    {
+					"id": "Weld",
+					"title": "Car Body Weld",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.3328",
+					"y": "0.8240"
+				},
+				{
+					"id": "tmcbreak",
+					"title": "Break area",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.2704",
+					"y": "0.4449"
+				},
+				{
+					"id": "tmcqaoffice",
+					"title": "QA office",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.3465",
+					"y": "0.4449"
+				},
+				{
+					"id": "tmcpaint",
+					"title": "Paint booth",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.5841",
+					"y": "0.4449"
+				},
+				{
+					"id": "tmcrework",
+					"title": "Rework",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7451",
+					"y": "0.2932"
+				},
+				
+				{
+					"id": "tmcmanu",
+					"title": "Manufacturing area",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.4219",
+					"y": "0.5385"
+				},
+				
+				{
+					"id": "mez",
+					"title": "Mezzanine office",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.2427",
+					"y": "0.3018"
+				},
+			
+				{
+					"id": "tmctesthouse",
+					"title": "Test house",
+					"category": "TMC1",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.5500",
+					"y": "0.1598"
+				}
+			]
+	
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"id":"FirstFloor",
+			"title":"Offices - First Floor",
+			"map":"maps/NAY_floorplan_02.svg",
+			"minimap": "maps/nay_firstfloor_mini.jpg",
+			"locations":[
+				{
+					"id": "mainoffice",
+					"title": "Main office",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.6188",
+					"y": "0.5854"
+				},
+				{
+					"id": "kitchenette",
+					"title": "Kitchen",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5240",
+					"y": "0.5190"
+				},
+				{
+					"id": "prod",
+					"title": "Production control",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.5",
+					"x": "0.4740",
+					"y": "0.5150"
+				},
+				{
+					"id": "boardroom",
+					"title": "Board room",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.5",
+					"x": "0.6740",
+					"y": "0.1930"
+				},
+				{
+					"id": "meeting1",
+					"title": "Meeting room 01",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.6382",
+					"y": "0.1930"
+				},
+				{
+					"id": "meeting2",
+					"title": "Meeting room 02",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.6108",
+					"y": "0.1930"
+				},
+				{
+					"id": "meeting3",
+					"title": "Meeting room 03",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5841",
+					"y": "0.1930"
+				},
+				{
+					"id": "meeting4",
+					"title": "Meeting room 04",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5220",
+					"y": "0.3570"
+				},
+				{
+					"id": "meeting5",
+					"title": "Meeting room 05",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5220",
+					"y": "0.4020"
+				},
+				{
+					"id": "meeting6",
+					"title": "Meeting room 06",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5220",
+					"y": "0.4454"
+				},
+				{
+					"id": "meeting7",
+					"title": "Meeting room 07",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.5220",
+					"y": "0.5820"
+				},
+				{
+					"id": "meeting8",
+					"title": "Meeting room 08",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.4875",
+					"y": "0.5820"
+				},
+				{
+					"id": "meeting9",
+					"title": "Meeting room 09",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.4564",
+					"y": "0.5820"
+				},
+				{
+					"id": "meeting10",
+					"title": "Meeting room 10",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1.5",
+					"x": "0.4197",
+					"y": "0.5820"
+				},
+				{
+					"id": "meeting11",
+					"title": "Meeting room 11",
+					"category": "TMC2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3589",
+					"y": "0.5820"
+				}
+				
+			]
+	
+		},
+		
+		
+		
+		
+		
+		
+				{
+			"id":"SecondFloor",
+			"title":"Offices - Second Floor",
+			"map":"maps/NAY_floorplan_03.svg",
+			"minimap": "maps/nay_secondfloor_mini.jpg",
+			"locations":[
+			 	{
+					"id": "training",
+					"title": "Training/Conference room",
+					"category": "TMC3",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"1",
+					"x": "0.6263",
+					"y": "0.1979"
+				}
+		
+			]
+	
+		}
+		
+		
+		
+		
+		
+		
+	]
+}
