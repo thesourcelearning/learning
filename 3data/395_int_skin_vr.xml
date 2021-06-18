@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - Default Point Spot Style -->
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/spot_70degrees_user_defaultpoint0.png"
+         visible="false"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onover="onoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle">
+tween(scale, 1.2);
+
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+    
+  <!-- Spot Style - 60degrees -->
+  <style name="Icon60degrees"
+         url="%FIRSTXML%/spots/spot_60degrees_user_defaultpoint2.png"
+         visible="false"
+         onhover="onhoverIcon60degrees"
+         onover="onoverIcon60degrees"
+         onout="onoutIcon60degrees"
+
+
+         />
+
+  <action name="onhoverIcon60degrees">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIcon60degrees">
+tween(scale, 1.2);
+
+
+  </action>
+
+  <action name="onoutIcon60degrees">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 70degrees -->
+  <style name="Icon70degrees"
+         url="%FIRSTXML%/spots/spot_70degrees_user_defaultpoint4.png"
+         visible="false"
+         onhover="onhoverIcon70degrees"
+         onover="onoverIcon70degrees"
+         onout="onoutIcon70degrees"
+
+
+         />
+
+  <action name="onhoverIcon70degrees">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIcon70degrees">
+tween(scale, 1.2);
+
+
+  </action>
+
+  <action name="onoutIcon70degrees">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - door -->
+  <style name="Icondoor"
+         url="%FIRSTXML%/spots/spot_static_user_defaultpoint7.png"
+         visible="false"
+         onhover="onhoverIcondoor"
+         onover="onoverIcondoor"
+         onout="onoutIcondoor"
+
+         height="35"
+         width="35"
+         />
+
+  <action name="onhoverIcondoor">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIcondoor">
+tween(scale, 1.2);
+
+
+  </action>
+
+  <action name="onoutIcondoor">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+</krpano>
