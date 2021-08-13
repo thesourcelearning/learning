@@ -123,7 +123,7 @@
 			"minimap": "maps/ludgate_seventhfloor_mini.jpg",
 			"locations":[
 			
-				{
+								{
 					"id": "hreoffice",
 					"title": "HRE - Floor 7",
 					"category": "HRE3",
@@ -205,7 +205,7 @@
 					"thumbnail": "images/lud_kitchen.jpg",
 					"fill": "#FF0026",
 					"zoom":"2",
-					"x": "0.7174",
+					"x": "0.6900",
 					"y": "0.6780"
 				},
 				{
@@ -268,14 +268,14 @@
 					"id": "meeting5",
 					"title": "Room 05 - Nara",
 					"category": "HRE3",
-					"description": "Seats 6, display screen, and video conference.",
+					"description": "Seats 12, display screen, and video conference.",
 					"pin": "hidden",
 					"about":"",
 					"image": "images/lud_room5.jpg",
 					"thumbnail": "images/lud_room5.jpg",
 					"fill": "#FF0026",
 					"zoom":"2",
-					"x": "0.6144",
+					"x": "0.6430",
 					"y": "0.8876"
 				},
 				{
@@ -308,7 +308,7 @@
 				},
 				{
 					"id": "meeting8",
-					"title": "Room 08 - Niigata",
+					"title": "Room 08 - Nigata",
 					"category": "HRE3",
 					"description": "Seats 6, double display screen, and video conference.",
 					"pin": "hidden",
@@ -322,7 +322,21 @@
 				},
 				{
 					"id": "meeting9",
-					"title": "Room 09 - Kagoshima",
+					"title": "Room 09 - Sapporo",
+					"category": "HRE3",
+					"description": "Seats 6, speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room5.jpg",
+					"thumbnail": "images/lud_room5.jpg",
+					"fill": "#FF0026",
+					"zoom":"3",
+					"x": "0.3040",
+					"y": "0.8876"
+				},
+				{
+					"id": "meeting10",
+					"title": "Room 10 - Kagoshima",
 					"category": "HRE3",
 					"description": "Seats 2, speaker telephone.",
 					"pin": "hidden",
@@ -335,10 +349,10 @@
 					"y": "0.7550"
 				},
 				{
-					"id": "meeting10",
-					"title": "Room 10 - Fukuoka",
+					"id": "meeting11",
+					"title": "Room 11 - Fukuoka",
 					"category": "HRE3",
-					"description": "Seats 2, speaker telephone.",
+					"description": "Seats 2,  display screen, speaker telephone.",
 					"pin": "hidden",
 					"about":"",
 					"image": "images/lud_room10.jpg",
@@ -346,25 +360,109 @@
 					"fill": "#FF0026",
 					"zoom":"3",
 					"x": "0.3360",
-					"y": "0.6460"
+					"y": "0.6760"
 				},
 				{
-					"id": "meeting11",
-					"title": "Room 11 - Fukuoka",
+					"id": "meeting12",
+					"title": "Room 12 - Okinawa",
 					"category": "HRE3",
-					"description": "Seats 4, display screen, and speaker telephone.",
+					"description": "Seats 4, and speaker telephone.",
 					"pin": "hidden",
 					"about":"",
 					"image": "images/lud_room11.jpg",
 					"thumbnail": "images/lud_room11.jpg",
 					"fill": "#FF0026",
-					"zoom":"2.5",
+					"zoom":"2",
 					"x": "0.3360",
-					"y": "0.5909"
+					"y": "0.5950"
 				},
 				{
-					"id": "meeting12",
-					"title": "Room 12 - Akita",
+					"id": "meeting13",
+					"title": "Room 13 - Osaka",
+					"category": "HRE3",
+					"description": "Seats 4, speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room3.jpg",
+					"thumbnail": "images/lud_room3.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3375",
+					"y": "0.4600"
+				},
+				{
+					"id": "meeting14",
+					"title": "Room 14 - Kochi",
+					"category": "HRE3",
+					"description": "Seats 2, speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room9.jpg",
+					"thumbnail": "images/lud_room9.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3375",
+					"y": "0.4100"
+				},
+				{
+					"id": "meeting15",
+					"title": "Room 15 - Nagoya",
+					"category": "HRE3",
+					"description": "Seats 5, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room3.jpg",
+					"thumbnail": "images/lud_room3.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3375",
+					"y": "0.3200"
+				},
+				{
+					"id": "meeting16",
+					"title": "Room 16 - Atami",
+					"category": "HRE3",
+					"description": "Seats 8, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room6.jpg",
+					"thumbnail": "images/lud_room6.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.2650",
+					"y": "0.0950"
+				},
+				{
+					"id": "meeting17",
+					"title": "Room 17 - Honshu",
+					"category": "HRE3",
+					"description": "Seats 4, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room2.jpg",
+					"thumbnail": "images/holborn_room2.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.3775",
+					"y": "0.3400"
+				},
+				{
+					"id": "meeting18",
+					"title": "Room 18 - Mito",
+					"category": "HRE3",
+					"description": "Seats 4, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/holborn_room3.jpg",
+					"thumbnail": "images/holborn_room3.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.4220",
+					"y": "0.3750"
+				},
+				{
+					"id": "meeting19",
+					"title": "Room 19 - Akita",
 					"category": "HRE3",
 					"description": "Seats 4, display screen, and video conference.",
 					"pin": "hidden",
@@ -375,6 +473,20 @@
 					"zoom":"2",
 					"x": "0.6272",
 					"y": "0.5786"
+				},
+				{
+					"id": "meeting20",
+					"title": "Room 20 - Tokyo",
+					"category": "HRE3",
+					"description": "Seats 10, display screen, and speaker telephone.",
+					"pin": "hidden",
+					"about":"",
+					"image": "images/lud_room7.jpg",
+					"thumbnail": "images/lud_room7.jpg",
+					"fill": "#FF0026",
+					"zoom":"2",
+					"x": "0.7444",
+					"y": "0.6876"
 				}
 			]
 	
