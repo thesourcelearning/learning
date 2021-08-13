@@ -182,7 +182,7 @@
 					"id": "breakout",
 					"title": "Breakout area",
 					"category": "HRE3",
-					"description": "Ping-pong, soft seating, and display screens.",
+					"description": "Soft seating, and display screens.",
 					"pin": "hidden",
 					"about":"",
 					"image": "images/lud_breakout.jpg",
