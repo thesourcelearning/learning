@@ -147,7 +147,7 @@
 				
 				{
 					"id": "meeting3",
-					"title": "TMC - Meeting room 3",
+					"title": "TMC - Communications Room",
 					"category": "TMC1",
 					"description": "",
 					"pin": "hidden",
@@ -273,7 +273,7 @@
 				
 				{
 					"id": "ppw",
-					"title": "TMC - PPW office",
+					"title": "TMC - Budda Room",
 					"category": "TMC2",
 					"description": "",
 					"pin": "hidden",
@@ -333,7 +333,7 @@
 				},
 								{
 					"id": "tokyo",
-					"title": "TMC - Tokto bay room",
+					"title": "TMC - Tokyo bay room",
 					"category": "TMC2",
 					"description": "",
 					"pin": "hidden",
