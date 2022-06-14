@@ -78,7 +78,7 @@
 		{
 			"id":"Groundfloor",
 			"title":"TMC Main Building - Ground Floor",
-			"map":"maps/DONCASTER_floorplan_01.svg",
+			"map":"maps/DONCASTER_floorplan_01_01.svg",
 			"minimap": "maps/doncaster_groundfloor_mini.jpg",
 			"locations":[
 			
