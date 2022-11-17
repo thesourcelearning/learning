@@ -40,21 +40,6 @@
 					"y": "0.29"
 				},
 				{
-					"id": "TRAINING",
-					"title": "Training",
-					"category": "HRE1",
-					"description": "Ground floor",
-					"pin": "hidden",
-					"about":"",
-					"fill": "#FF0026",
-					"link": "",
-					"image": "",
-					"thumbnail": "",
-					"zoom":"2.8",
-					"x": "0.843",
-					"y": "0.28"
-				},
-				{
 					"id": "OFFICE",
 					"title": "Main office",
 					"category": "HRE1",
