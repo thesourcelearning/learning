@@ -746,7 +746,7 @@ stopautorotation();
 			enabled="false" />
 
 		<layer name="webvr_button_image" 
-			align="center" url="%FIRSTXML%/thumbnail.jpg" 
+			align="center" url="%FIRSTXML%/thumbnail.png" 
 			y="20" edge="top" 
 			width="240" height="120" 
 			alpha="0.8"

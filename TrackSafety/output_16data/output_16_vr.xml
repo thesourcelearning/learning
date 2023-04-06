@@ -67,7 +67,7 @@
                  mainscene="pano14"
                  color="808080"
                  alpha="1"
-                 thumburl="%FIRSTXML%/_group_10__1_correct_14/thumbnail.jpg"
+                 thumburl="%FIRSTXML%/_group_10__1_correct_14/thumbnail.png"
                  floorplanurl=""
                  titleid="panogroup15_title"
                  descriptionid=""/>
@@ -75,12 +75,12 @@
   <!-- Group Group 15 : 1 panoramas -->
   
 
-<!-- **** @PanoName="[Group 10]-1_corrected_dehazed_2_corrected_dehazed-2 images" @PanoFile="C:/Users/cobol/Desktop/track_safety/[Group 10]-1_corrected_dehazed_2_corrected_dehazed-2 images.jpg" **** -->
+<!-- **** @PanoName="[Group 10]-1_corrected_dehazed_2_corrected_dehazed-2 images" @PanoFile="C:/Users/cobol/Desktop/track_safety/[Group 10]-1_corrected_dehazed_2_corrected_dehazed-2 images.png" **** -->
 <!-- **** Width="7882px" Height="3941px" **** -->
 <scene name="pano14"
        heading="0"
        group="panogroup15"
-       thumburl="%FIRSTXML%/_group_10__1_correct_14/thumbnail.jpg"
+       thumburl="%FIRSTXML%/_group_10__1_correct_14/thumbnail.png"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -110,42 +110,42 @@
           hlookat="-24.500000"
           vlookat="18.583300"/>
 
-    <preview url="%FIRSTXML%/_group_10__1_correct_14/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/_group_10__1_correct_14/preview.png" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="2560" tiledimageheight="2560">
-          <front url="_group_10__1_correct_14/0/2/%v_%u.jpg"/>
-          <right url="_group_10__1_correct_14/1/2/%v_%u.jpg"/>
-          <back  url="_group_10__1_correct_14/2/2/%v_%u.jpg"/>
-          <left  url="_group_10__1_correct_14/3/2/%v_%u.jpg"/>
-          <up    url="_group_10__1_correct_14/4/2/%v_%u.jpg"/>
-          <down  url="_group_10__1_correct_14/5/2/%v_%u.jpg"/>
+          <front url="_group_10__1_correct_14/0/2/%v_%u.png"/>
+          <right url="_group_10__1_correct_14/1/2/%v_%u.png"/>
+          <back  url="_group_10__1_correct_14/2/2/%v_%u.png"/>
+          <left  url="_group_10__1_correct_14/3/2/%v_%u.png"/>
+          <up    url="_group_10__1_correct_14/4/2/%v_%u.png"/>
+          <down  url="_group_10__1_correct_14/5/2/%v_%u.png"/>
       </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
-          <front url="_group_10__1_correct_14/0/1/%v_%u.jpg"/>
-          <right url="_group_10__1_correct_14/1/1/%v_%u.jpg"/>
-          <back  url="_group_10__1_correct_14/2/1/%v_%u.jpg"/>
-          <left  url="_group_10__1_correct_14/3/1/%v_%u.jpg"/>
-          <up    url="_group_10__1_correct_14/4/1/%v_%u.jpg"/>
-          <down  url="_group_10__1_correct_14/5/1/%v_%u.jpg"/>
+          <front url="_group_10__1_correct_14/0/1/%v_%u.png"/>
+          <right url="_group_10__1_correct_14/1/1/%v_%u.png"/>
+          <back  url="_group_10__1_correct_14/2/1/%v_%u.png"/>
+          <left  url="_group_10__1_correct_14/3/1/%v_%u.png"/>
+          <up    url="_group_10__1_correct_14/4/1/%v_%u.png"/>
+          <down  url="_group_10__1_correct_14/5/1/%v_%u.png"/>
       </level>
       <level tiledimagewidth="1024" tiledimageheight="1024">
-          <front url="_group_10__1_correct_14/0/0/%v_%u.jpg"/>
-          <right url="_group_10__1_correct_14/1/0/%v_%u.jpg"/>
-          <back  url="_group_10__1_correct_14/2/0/%v_%u.jpg"/>
-          <left  url="_group_10__1_correct_14/3/0/%v_%u.jpg"/>
-          <up    url="_group_10__1_correct_14/4/0/%v_%u.jpg"/>
-          <down  url="_group_10__1_correct_14/5/0/%v_%u.jpg"/>
+          <front url="_group_10__1_correct_14/0/0/%v_%u.png"/>
+          <right url="_group_10__1_correct_14/1/0/%v_%u.png"/>
+          <back  url="_group_10__1_correct_14/2/0/%v_%u.png"/>
+          <left  url="_group_10__1_correct_14/3/0/%v_%u.png"/>
+          <up    url="_group_10__1_correct_14/4/0/%v_%u.png"/>
+          <down  url="_group_10__1_correct_14/5/0/%v_%u.png"/>
       </level>
     </image>
       <image type="CUBE" devices="androidstock.and.no-webgl">
-        <front url="_group_10__1_correct_14/mobile/0.jpg"/>
-        <right url="_group_10__1_correct_14/mobile/1.jpg"/>
-        <back  url="_group_10__1_correct_14/mobile/2.jpg"/>
-        <left  url="_group_10__1_correct_14/mobile/3.jpg"/>
-        <up    url="_group_10__1_correct_14/mobile/4.jpg"/>
-        <down  url="_group_10__1_correct_14/mobile/5.jpg"/>
+        <front url="_group_10__1_correct_14/mobile/0.png"/>
+        <right url="_group_10__1_correct_14/mobile/1.png"/>
+        <back  url="_group_10__1_correct_14/mobile/2.png"/>
+        <left  url="_group_10__1_correct_14/mobile/3.png"/>
+        <up    url="_group_10__1_correct_14/mobile/4.png"/>
+        <down  url="_group_10__1_correct_14/mobile/5.png"/>
       </image>
 
 
