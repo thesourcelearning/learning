@@ -30,14 +30,14 @@
 					"category": "HRE1",
 					"description": "TBC",
 					"pin": "hidden",
-					"about":"",
+					"about":"x",
 					"fill": "#FF0026",
 					"link": "?location=northshed",
 					"image": "images/northshed.jpg",
 					"thumbnail": "images/northshed.jpg",
 					"zoom":"2",
-					"x": "0.3000",
-					"y": "0.4200"
+					"x": "0.3400",
+					"y": "0.4350"
 				},
 				
 				{
@@ -110,7 +110,7 @@
 		},
 		{
 			"id":"shed",
-			"title":"4 Shed",
+			"title":"Four Shed",
 			"map":"maps/EP_4_Shed-01.svg",
 			"minimap": "maps/ep_4shed_mini.jpg",
 			"locations":[
