@@ -676,10 +676,10 @@
   </g>
   <g id="landmarks">
     <polygon id="Northshed" points="592.97 473.31 559.1 546.8 894.05 701.18 918.43 648.29 730.97 561.89 734.57 554.07 722.8 548.65 724.66 544.61 687.48 527.48 691.52 518.73 592.97 473.31" fill="#ededed" stroke="#ff0026" stroke-miterlimit="10" stroke-width="3"/>
-    <path id="_4shed" data-name="4shed" d="M389.17,279.63c-.9.93-17.79,22.49-17.79,22.49l64.64,47.03-15.05,18.24,23.24,16.16,28.2-41.92-83.24-62.01Z" fill="#ededed" stroke="#ff0026" stroke-miterlimit="10" stroke-width="3"/>
-    <polyline id="assembly3" points="513.73 412.89 496.89 450.65 561.8 483.23 568.63 461.16 555.92 451.35 545.4 446.71 525.39 434.32 518.4 414.88 514.77 410.81" fill="#008246" opacity=".39" stroke-width="0"/>
-    <polyline id="assembly2" points="884.7 492.54 903.06 530 925.62 546.72 958.25 541.59 963.81 532.53 885.47 492.54" fill="#008246" opacity=".39" stroke-width="0"/>
-    <polyline id="assesmbly1" points="1823.62 883.68 1814.39 899.35 1812.62 928.83 1825.46 926.96 1839.95 889.9 1824.39 883.68" fill="#008246" opacity=".39" stroke-width="0"/>
+    <path id="shed" d="M389.17,279.63c-.9.93-17.79,22.49-17.79,22.49l64.64,47.03-15.05,18.24,23.24,16.16,28.2-41.92-83.24-62.01Z" fill="#ededed" stroke="#ff0026" stroke-miterlimit="10" stroke-width="3"/>
+    <polyline id="assemblyC" points="513.73 412.89 496.89 450.65 561.8 483.23 568.63 461.16 555.92 451.35 545.4 446.71 525.39 434.32 518.4 414.88 514.77 410.81" fill="#008246" opacity=".39" stroke-width="0"/>
+    <polyline id="assemblyB" points="884.7 492.54 903.06 530 925.62 546.72 958.25 541.59 963.81 532.53 885.47 492.54" fill="#008246" opacity=".39" stroke-width="0"/>
+    <polyline id="assesmblyA" points="1823.62 883.68 1814.39 899.35 1812.62 928.83 1825.46 926.96 1839.95 889.9 1824.39 883.68" fill="#008246" opacity=".39" stroke-width="0"/>
   </g>
   <g id="nopointer">
     <g id="key">
