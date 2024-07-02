@@ -1,0 +1,126 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	  "id": "HRE1",
+      "title": "Etches Park Site",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	 {
+	  "id": "HRE2",
+      "title": "North Shed",
+      "color": "#2d2d2d",
+      "show": "false"
+	 },
+	 {
+	  "id": "HRE3",
+      "title": "4 Shed",
+      "color": "#2d2d2d",
+      "show": "false"
+	 }
+	
+	],
+	"levels":[
+		
+		{
+			"id":"Site",
+			"title":"Level selecter",
+			"map":"maps/etches_source6.svg",
+			"minimap": "maps/etches_mini.jpg",
+			"locations":[
+				{
+					"id": "Northshed",
+					"title": "Northshed",
+					"category": "HRE1",
+					"description": "TBC",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"link": "?location=NorthShed",
+					"image": "images/northshed.jpg",
+					"thumbnail": "images/northshed.jpg",
+					"zoom":"2",
+					"x": "0.6813",
+					"y": "0.5067"
+				},
+				
+				{
+					"id": "assesmbly1",
+					"title": "Evac point 1",
+					"category": "HRE2",
+					"description": "Located near South entrance at Deadmans Lane.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_1.jpg",
+					"thumbnail": "images/ep_ass_1.jpg",
+					"zoom":"2",
+					"x": "0.2540",
+					"y": "0.1230"
+				},
+				{
+					"id": "assesmbly2",
+					"title": "Evac point 2",
+					"category": "HRE2",
+					"description": "Located near the Brunel Parkway entrance",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_2.jpg",
+					"thumbnail": "images/ep_ass_2.jpg",
+					"zoom":"2",
+					"x": "0.1240",
+					"y": "0.0690"
+				},
+				{
+					"id": "assesmbly3",
+					"title": "Evac point 3",
+					"category": "HRE2",
+					"description": "Located in the carpark between North Shed and 4 Shed.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_3.jpg",
+					"thumbnail": "images/ep_ass_3.jpg",
+					"zoom":"2",
+					"x": "0.0710",
+					"y": "0.0570"
+				},
+								{
+					"id": "4shed",
+					"title": "4 Shed",
+					"category": "HRE2",
+					"description": "TBC",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"link": "?location=4Shed",
+					"image": "images/4shed.jpg",
+					"thumbnail": "images/4shed.jpg",
+					"zoom":"2",
+					"x": "0.4395",
+					"y": "0.3267"
+				}
+
+			]
+		},
+
+		
+		{
+			"id":"NorthShed",
+			"title":"North Shed",
+			"map":"maps/EP_North_Shed.svg",
+			"minimap": "maps/ep_northshed_mini.jpg",
+			"locations":[
+				{}]
+		},
+		{
+			"id":"4Shed",
+			"title":"4 Shed",
+			"map":"maps/EP_4_Shed-01.svg",
+			"minimap": "maps/ep_4shed_mini.jpg",
+			"locations":[
+				{}]
+		}
+		
+
+	]
+}
