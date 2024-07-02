@@ -65,8 +65,8 @@
 					"image": "images/ep_ass_1.jpg",
 					"thumbnail": "images/ep_ass_1.jpg",
 					"zoom":"2",
-					"x": "0.3000",
-					"y": "0.3000"
+					"x": "0.9900",
+					"y": "0.9900"
 				},
 				{
 					"id": "assesmbly2",
@@ -78,8 +78,8 @@
 					"image": "images/ep_ass_2.jpg",
 					"thumbnail": "images/ep_ass_2.jpg",
 					"zoom":"2",
-					"x": "0.4900",
-					"y": "0.4900"
+					"x": "0.4800",
+					"y": "0.4800"
 				},
 				{
 					"id": "assesmbly3",
