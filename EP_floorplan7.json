@@ -25,7 +25,7 @@
 			"minimap": "maps/etches_mini.jpg",
 			"locations":[
 				{
-					"id": "Northshed_label",
+					"id": "Northshed",
 					"title": "Northshed",
 					"category": "HRE0",
 					"description": "TBC",
@@ -42,7 +42,7 @@
 				},
 				
 				{
-					"id": "Shed_label",
+					"id": "Shed",
 					"title": "4 shed",
 					"category": "HRE0",
 					"description": "TBC",
@@ -59,7 +59,7 @@
 				},
 				
 				{
-					"id": "assemblyA_label",
+					"id": "assemblyA",
 					"title": "Evac point A",
 					"category": "HRE1",
 					"description": "Located near South entrance at Deadmans Lane.",
@@ -74,7 +74,7 @@
 					"y": "0.8250"
 				},
 				{
-					"id": "assemblyB_label",
+					"id": "assemblyB",
 					"title": "Evac point B",
 					"category": "HRE1",
 					"description": "TBC",
@@ -89,7 +89,7 @@
 					"y": "0.4800"
 				},
 				{
-					"id": "assemblyC_label",
+					"id": "assemblyC",
 					"title": "Evac point C",
 					"category": "HRE1",
 					"description": "TBC",
