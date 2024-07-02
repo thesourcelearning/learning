@@ -3,16 +3,10 @@
 	"mapheight":"1080",
 	"categories":[
 	{
-	  "id": "HRE1",
+	  "id": "HRE0",
       "title": "Etches Park Site",
       "color": "#2d2d2d",
       "show": "true"
-	 },
-	 {
-	  "id": "HRE2",
-      "title": "Evacuation Points ",
-      "color": "#2d2d2d",
-      "show": "false"
 	 }
 	
 	],
@@ -27,7 +21,7 @@
 				{
 					"id": "Northshed",
 					"title": "Northshed",
-					"category": "HRE1",
+					"category": "HRE0",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
@@ -37,13 +31,13 @@
 					"thumbnail": "images/northshed.jpg",
 					"zoom":"2",
 					"x": "0.3400",
-					"y": "0.4450"
+					"y": "0.4600"
 				},
 				
 				{
 					"id": "shed",
 					"title": "Four Shed",
-					"category": "HRE1",
+					"category": "HRE0",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
@@ -53,13 +47,13 @@
 					"thumbnail": "images/shed.jpg",
 					"zoom":"2",
 					"x": "0.2000",
-					"y": "0.3800"
+					"y": "0.3000"
 				},
 				
 				{
 					"id": "assesmblyA",
 					"title": "Evac point A",
-					"category": "HRE2",
+					"category": "HRE0",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"fill": "#FF0026",
@@ -72,7 +66,7 @@
 				{
 					"id": "assesmblyB",
 					"title": "Evac point B",
-					"category": "HRE2",
+					"category": "HRE0",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"fill": "#FF0026",
@@ -85,7 +79,7 @@
 				{
 					"id": "assesmblyC",
 					"title": "Evac point C",
-					"category": "HRE2",
+					"category": "HRE0",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"fill": "#FF0026",
