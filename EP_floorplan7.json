@@ -1,0 +1,121 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	  "id": "HRE1",
+      "title": "Etches Park Site",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	 {
+	  "id": "HRE2",
+      "title": "Evacuation Points ",
+      "color": "#2d2d2d",
+      "show": "false"
+	 }
+	
+	],
+	"levels":[
+		
+		{
+			"id":"Site",
+			"title":"Level selecter",
+			"map":"maps/etches_source7.svg",
+			"minimap": "maps/etches_mini.jpg",
+			"locations":[
+				{
+					"id": "Northshed",
+					"title": "Northshed",
+					"category": "HRE1",
+					"description": "TBC",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"link": "?location=NorthShed",
+					"image": "images/northshed.jpg",
+					"thumbnail": "images/northshed.jpg",
+					"zoom":"2",
+					"x": "0.6813",
+					"y": "0.5067"
+				},
+				
+				{
+					"id": "4shed",
+					"title": "4 Shed",
+					"category": "HRE1",
+					"description": "TBC",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"link": "?location=4Shed1",
+					"image": "images/4shed.jpg",
+					"thumbnail": "images/4shed.jpg",
+					"zoom":"2",
+					"x": "0.1000",
+					"y": "0.1000"
+				},
+				
+				{
+					"id": "assesmbly1",
+					"title": "Evac point 1",
+					"category": "HRE2",
+					"description": "Located near South entrance at Deadmans Lane.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_1.jpg",
+					"thumbnail": "images/ep_ass_1.jpg",
+					"zoom":"2",
+					"x": "0.3000",
+					"y": "0.3000"
+				},
+				{
+					"id": "assesmbly2",
+					"title": "Evac point 2",
+					"category": "HRE2",
+					"description": "Located near the Brunel Parkway entrance",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_2.jpg",
+					"thumbnail": "images/ep_ass_2.jpg",
+					"zoom":"2",
+					"x": "0.4000",
+					"y": "0.4000"
+				},
+				{
+					"id": "assesmbly3",
+					"title": "Evac point 3",
+					"category": "HRE2",
+					"description": "Located in the carpark between North Shed and 4 Shed.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_3.jpg",
+					"thumbnail": "images/ep_ass_3.jpg",
+					"zoom":"2",
+					"x": "0.5000",
+					"y": "0.5000"
+				}
+
+			]
+		},
+
+		
+		{
+			"id":"NorthShed",
+			"title":"North Shed",
+			"map":"maps/EP_North_Shed7.svg",
+			"minimap": "maps/ep_northshed_mini.jpg",
+			"locations":[
+				{}]
+		},
+		{
+			"id":"4Shed1",
+			"title":"4 Shed",
+			"map":"maps/EP_4_Shed-01.svg",
+			"minimap": "maps/ep_4shed_mini.jpg",
+			"locations":[
+				{}]
+		}
+		
+
+	]
+}
