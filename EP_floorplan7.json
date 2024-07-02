@@ -33,7 +33,7 @@
 					"about":"",
 					"show":"true",
 					"fill": "#FF0026",
-					"link": "?location=northshed",
+					"link": "?location=First",
 					"image": "images/northshed.jpg",
 					"thumbnail": "images/northshed.jpg",
 					"zoom":"2",
@@ -50,7 +50,7 @@
 					"about":"",
 					"show":"true",
 					"fill": "#FF0026",
-					"link": "?location=shed",
+					"link": "?location=Second",
 					"image": "images/shed.jpg",
 					"thumbnail": "images/shed.jpg",
 					"zoom":"2",
@@ -112,13 +112,42 @@
 			"id":"Northshed",
 			"title":"North Shed",
 			"map":"maps/EP_North_Shed7.svg",
-			"minimap": "maps/ep_northshed_mini.jpg"
+			"minimap": "maps/ep_northshed_mini.jpg",
+			"locations":[
+				{
+					"id": "First",
+					"title": "NorthShed",
+					"category": "HRE0",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				}
+				
+				
+			]
 		},
 		{
 			"id":"Shed",
 			"title":"4 Shed",
 			"map":"maps/EP_4_Shed-01.svg",
-			"minimap": "maps/ep_4shed_mini.jpg"
+			"minimap": "maps/ep_4shed_mini.jpg",
+				"locations":[
+				{
+					"id": "Second",
+					"title": "4 Shed",
+					"category": "HRE0",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"zoom":"0",
+					"x": "10",
+					"y": "0"
+				}
 	
 		}
 		
