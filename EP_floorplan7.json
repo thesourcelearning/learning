@@ -9,19 +9,6 @@
       "show": "true"
 	 },
 	{
-      "id": "HRE2",
-      "title": "North Shed",
-      "color": "#2d2d2d",
-      "show": "true"
-	 },
-		
-	{
-      "id": "HRE3",
-      "title": "4 Shed",
-      "color": "#2d2d2d",
-      "show": "true"
-	 },
-	{
 	  "id": "HRE1",
       "title": "Assembly Points",
       "color": "#2d2d2d",
@@ -33,7 +20,7 @@
 		
 		{
 			"id":"Site",
-			"title":"Level selecter",
+			"title":"Etches Park Site",
 			"map":"maps/etches_source7.svg",
 			"minimap": "maps/etches_mini.jpg",
 			"locations":[
@@ -44,6 +31,7 @@
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
+					"show":"false",
 					"fill": "#FF0026",
 					"link": "?location=northshed",
 					"image": "images/northshed.jpg",
@@ -60,6 +48,7 @@
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
+					"show":"false",
 					"fill": "#FF0026",
 					"link": "?location=shed",
 					"image": "images/shed.jpg",
@@ -76,6 +65,7 @@
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"about":"",
+					"show":"false",
 					"fill": "#FF0026",
 					"image": "images/ep_ass_A.jpg",
 					"thumbnail": "images/ep_ass_A.jpg",
@@ -90,6 +80,7 @@
 					"description": "",
 					"pin": "hidden",
 					"about":"",
+					"show":"false",
 					"fill": "#FF0026",
 					"image": "images/ep_ass_B.jpg",
 					"thumbnail": "images/ep_ass_B.jpg",
@@ -104,6 +95,7 @@
 					"description": "",
 					"pin": "hidden",
 					"about":"",
+					"show":"false",
 					"fill": "#FF0026",
 					"image": "images/ep_ass_C.jpg",
 					"thumbnail": "images/ep_ass_C.jpg",
@@ -120,43 +112,14 @@
 			"id":"northshed",
 			"title":"North Shed",
 			"map":"maps/EP_North_Shed7.svg",
-			"minimap": "maps/ep_northshed_mini.jpg",
-			"locations":[
-									{
-					"id": "northshedone",
-					"title": "North Shed",
-					"category": "HRE2",
-					"description": "",
-					"pin": "hidden",
-					"about":"",
-					"fill": "#FF0026",
-					"image": "images/northshed.jpg",
-					"thumbnail": "images/northshed.jpg",
-					"zoom":"1",
-					"x": "0.5000",
-					"y": "0.5000"
-				}]
+			"minimap": "maps/ep_northshed_mini.jpg"
 		},
 		{
 			"id":"shed",
 			"title":"4 Shed",
 			"map":"maps/EP_4_Shed-01.svg",
-			"minimap": "maps/ep_4shed_mini.jpg",
-			"locations":[
-					{
-					"id": "shedone",
-					"title": "4 Shed",
-					"category": "HRE3",
-					"description": "",
-					"pin": "hidden",
-					"about":"",
-					"fill": "#FF0026",
-					"image": "images/shed.jpg",
-					"thumbnail": "images/shed.jpg",
-					"zoom":"1",
-					"x": "0.5000",
-					"y": "0.5000"
-				}]
+			"minimap": "maps/ep_4shed_mini.jpg"
+	
 		}
 		
 
