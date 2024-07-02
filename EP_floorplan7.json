@@ -7,6 +7,12 @@
       "title": "Etches Park Site",
       "color": "#2d2d2d",
       "show": "true"
+	 },
+	{
+	  "id": "HRE1",
+      "title": "Assembly Points",
+      "color": "#2d2d2d",
+      "show": "true"
 	 }
 	
 	],
@@ -31,7 +37,7 @@
 					"thumbnail": "images/northshed.jpg",
 					"zoom":"2",
 					"x": "0.3400",
-					"y": "0.4700"
+					"y": "0.4750"
 				},
 				
 				{
@@ -53,7 +59,7 @@
 				{
 					"id": "assemblyA",
 					"title": "Evac point A",
-					"category": "HRE0",
+					"category": "HRE1",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"fill": "#FF0026",
@@ -66,12 +72,12 @@
 				{
 					"id": "assemblyB",
 					"title": "Evac point B",
-					"category": "HRE0",
+					"category": "HRE1",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"fill": "#FF0026",
-					"image": "images/ep_ass_A.jpg",
-					"thumbnail": "images/ep_ass_A.jpg",
+					"image": "images/ep_ass_B.jpg",
+					"thumbnail": "images/ep_ass_B.jpg",
 					"zoom":"2",
 					"x": "0.4800",
 					"y": "0.4800"
@@ -79,12 +85,12 @@
 				{
 					"id": "assemblyC",
 					"title": "Evac point C",
-					"category": "HRE0",
+					"category": "HRE1",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"fill": "#FF0026",
-					"image": "images/ep_ass_A.jpg",
-					"thumbnail": "images/ep_ass_A.jpg",
+					"image": "images/ep_ass_C.jpg",
+					"thumbnail": "images/ep_ass_C.jpg",
 					"zoom":"2",
 					"x": "0.2700",
 					"y": "0.4020"
