@@ -65,7 +65,7 @@
 					"image": "images/ep_ass_1.jpg",
 					"thumbnail": "images/ep_ass_1.jpg",
 					"zoom":"2",
-					"x": "0.9400",
+					"x": "0.9550",
 					"y": "0.8250"
 				},
 				{
@@ -91,8 +91,8 @@
 					"image": "images/ep_ass_3.jpg",
 					"thumbnail": "images/ep_ass_3.jpg",
 					"zoom":"2",
-					"x": "0.2500",
-					"y": "0.4600"
+					"x": "0.2700",
+					"y": "0.4100"
 				}
 
 			]
