@@ -109,13 +109,13 @@
 
 		
 		{
-			"id":"northshed",
+			"id":"Northshed",
 			"title":"North Shed",
 			"map":"maps/EP_North_Shed7.svg",
 			"minimap": "maps/ep_northshed_mini.jpg"
 		},
 		{
-			"id":"shed",
+			"id":"Shed",
 			"title":"4 Shed",
 			"map":"maps/EP_4_Shed-01.svg",
 			"minimap": "maps/ep_4shed_mini.jpg"
