@@ -51,7 +51,7 @@
 				},
 				
 				{
-					"id": "assesmblyA",
+					"id": "assemblyA",
 					"title": "Evac point A",
 					"category": "HRE0",
 					"description": "Located near South entrance at Deadmans Lane.",
@@ -64,7 +64,7 @@
 					"y": "0.8250"
 				},
 				{
-					"id": "assesmblyB",
+					"id": "assemblyB",
 					"title": "Evac point B",
 					"category": "HRE0",
 					"description": "Located near South entrance at Deadmans Lane.",
@@ -77,7 +77,7 @@
 					"y": "0.4800"
 				},
 				{
-					"id": "assesmblyC",
+					"id": "assemblyC",
 					"title": "Evac point C",
 					"category": "HRE0",
 					"description": "Located near South entrance at Deadmans Lane.",
