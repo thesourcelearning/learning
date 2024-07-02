@@ -41,13 +41,13 @@
 				},
 				
 				{
-					"id": "4shed",
+					"id": "shed",
 					"title": "4 Shed",
 					"category": "HRE1",
 					"description": "TBC",
 					"pin": "hidden",
 					"fill": "#FF0026",
-					"link": "?location=4shed",
+					"link": "?location=shed",
 					"image": "images/4shed.jpg",
 					"thumbnail": "images/4shed.jpg",
 					"zoom":"2",
@@ -56,7 +56,7 @@
 				},
 				
 				{
-					"id": "assesmbly1",
+					"id": "assesmblyA",
 					"title": "Evac point 1",
 					"category": "HRE2",
 					"description": "Located near South entrance at Deadmans Lane.",
@@ -69,7 +69,7 @@
 					"y": "0.8250"
 				},
 				{
-					"id": "assesmbly2",
+					"id": "assesmblyB",
 					"title": "Evac point 2",
 					"category": "HRE2",
 					"description": "Located near the Brunel Parkway entrance",
@@ -82,7 +82,7 @@
 					"y": "0.4800"
 				},
 				{
-					"id": "assesmbly3",
+					"id": "assesmblyC",
 					"title": "Evac point 3",
 					"category": "HRE2",
 					"description": "Located in the carpark between North Shed and 4 Shed.",
@@ -108,8 +108,8 @@
 				{}]
 		},
 		{
-			"id":"4shed",
-			"title":"4Shed",
+			"id":"shed",
+			"title":"4 Shed",
 			"map":"maps/EP_4_Shed-01.svg",
 			"minimap": "maps/ep_4shed_mini.jpg",
 			"locations":[
