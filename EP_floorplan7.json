@@ -25,7 +25,7 @@
 			"minimap": "maps/etches_mini.jpg",
 			"locations":[
 				{
-					"id": "Northshed_label",
+					"id": "Northshed",
 					"title": "Northshed",
 					"category": "HRE0",
 					"description": "TBC",
