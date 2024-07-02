@@ -41,8 +41,8 @@
 				},
 				
 				{
-					"id": "shed",
-					"title": "4 Shed",
+					"id": "shed1",
+					"title": "shedDY",
 					"category": "HRE0",
 					"description": "TBC",
 					"pin": "hidden",
