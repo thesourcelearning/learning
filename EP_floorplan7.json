@@ -45,6 +45,7 @@
 					"title": "4 Shed",
 					"category": "HRE1",
 					"description": "TBC",
+					"about":"",
 					"pin": "hidden",
 					"fill": "#FF0026",
 					"link": "?location=shed",
