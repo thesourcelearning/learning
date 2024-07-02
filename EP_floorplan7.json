@@ -135,21 +135,21 @@
 			"title":"4 Shed",
 			"map":"maps/EP_4_Shed-01.svg",
 			"minimap": "maps/ep_4shed_mini.jpg",
-				"locations":[
-				{
-					"id": "Second",
-					"title": "4 Shed",
-					"category": "HRE0",
-					"description": "",
-					"pin": "hidden",
-					"about":"",
-					"fill": "#FF0026",
-					"zoom":"0",
-					"x": "10",
-					"y": "0"
-				}
+			"locations":[
+			{
+				"id": "Second",
+				"title": "4 Shed",
+				"category": "HRE0",
+				"description": "",
+				"pin": "hidden",
+				"about":"",
+				"fill": "#FF0026",
+				"zoom":"0",
+				"x": "10",
+				"y": "0"
+			}
 	
-		}
+		
 		
 
 	]
