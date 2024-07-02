@@ -36,8 +36,8 @@
 					"image": "images/northshed.jpg",
 					"thumbnail": "images/northshed.jpg",
 					"zoom":"2",
-					"x": "0.6813",
-					"y": "0.5067"
+					"x": "0.3000",
+					"y": "0.4200"
 				},
 				
 				{
@@ -51,8 +51,8 @@
 					"image": "images/4shed.jpg",
 					"thumbnail": "images/4shed.jpg",
 					"zoom":"2",
-					"x": "0.1000",
-					"y": "0.1000"
+					"x": "0.2000",
+					"y": "0.4200"
 				},
 				
 				{
@@ -92,7 +92,7 @@
 					"thumbnail": "images/ep_ass_3.jpg",
 					"zoom":"2",
 					"x": "0.2700",
-					"y": "0.4100"
+					"y": "0.4050"
 				}
 
 			]
