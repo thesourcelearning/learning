@@ -9,6 +9,19 @@
       "show": "true"
 	 },
 	{
+      "id": "HRE2",
+      "title": "North Shed",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+		
+	{
+      "id": "HRE3",
+      "title": "4 Shed",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	{
 	  "id": "HRE1",
       "title": "Assembly Points",
       "color": "#2d2d2d",
@@ -41,7 +54,7 @@
 				},
 				
 				{
-					"id": "shed",
+					"id": "Shed",
 					"title": "4 shed",
 					"category": "HRE0",
 					"description": "TBC",
@@ -109,7 +122,20 @@
 			"map":"maps/EP_North_Shed7.svg",
 			"minimap": "maps/ep_northshed_mini.jpg",
 			"locations":[
-				{}]
+									{
+					"id": "northshedone",
+					"title": "North Shed",
+					"category": "HRE2",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"image": "images/northshed.jpg",
+					"thumbnail": "images/northshed.jpg",
+					"zoom":"1",
+					"x": "0.5000",
+					"y": "0.5000"
+				}]
 		},
 		{
 			"id":"shed",
@@ -117,7 +143,20 @@
 			"map":"maps/EP_4_Shed-01.svg",
 			"minimap": "maps/ep_4shed_mini.jpg",
 			"locations":[
-				{}]
+					{
+					"id": "shedone",
+					"title": "4 Shed",
+					"category": "HRE3",
+					"description": "",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"image": "images/shed.jpg",
+					"thumbnail": "images/shed.jpg",
+					"zoom":"1",
+					"x": "0.5000",
+					"y": "0.5000"
+				}]
 		}
 		
 
