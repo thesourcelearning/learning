@@ -9,7 +9,18 @@
       "show": "true"
 	 },
 	{
-	  "id": "HRE1",
+	 "id": "HRE1",
+      "title": "North Shed",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	"id": "HRE2",
+      "title": "4 Shed",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+
+	"id": "HRE3",
       "title": "Assembly Points",
       "color": "#2d2d2d",
       "show": "true"
@@ -27,13 +38,13 @@
 				{
 					"id": "Northshed",
 					"title": "Northshed",
-					"category": "HRE0",
+					"category": "HRE1",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
 					"show":"true",
 					"fill": "#FF0026",
-					"link": "?location=First",
+					"link": "?location=First_loc",
 					"image": "images/northshed.jpg",
 					"thumbnail": "images/northshed.jpg",
 					"zoom":"2",
@@ -44,13 +55,13 @@
 				{
 					"id": "Shed",
 					"title": "4 shed",
-					"category": "HRE0",
+					"category": "HRE2",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
 					"show":"true",
 					"fill": "#FF0026",
-					"link": "?location=Second",
+					"link": "?location=Second_loc",
 					"image": "images/shed.jpg",
 					"thumbnail": "images/shed.jpg",
 					"zoom":"2",
@@ -61,7 +72,7 @@
 				{
 					"id": "assemblyA",
 					"title": "Evac point A",
-					"category": "HRE1",
+					"category": "HRE3",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
 					"about":"",
@@ -76,7 +87,7 @@
 				{
 					"id": "assemblyB",
 					"title": "Evac point B",
-					"category": "HRE1",
+					"category": "HRE3",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
@@ -91,7 +102,7 @@
 				{
 					"id": "assemblyC",
 					"title": "Evac point C",
-					"category": "HRE1",
+					"category": "HRE3",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
@@ -115,7 +126,7 @@
 			"minimap": "maps/ep_northshed_mini.jpg",
 			"locations":[
 				{
-					"id": "First",
+					"id": "First_loc",
 					"title": "NorthShed",
 					"category": "HRE0",
 					"description": "",
@@ -137,7 +148,7 @@
 			"minimap": "maps/ep_4shed_mini.jpg",
 			"locations":[
 			{
-				"id": "Second",
+				"id": "Second_loc",
 				"title": "4 Shed",
 				"category": "HRE0",
 				"description": "",
