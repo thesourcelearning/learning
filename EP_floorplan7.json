@@ -6,7 +6,7 @@
 	  "id": "HRE0",
       "title": "Etches Park Site",
       "color": "#2d2d2d",
-      "show": "true"
+      "show": "false"
 	 },
 	{
 	 "id": "HRE1",
@@ -36,21 +36,6 @@
 			"map":"maps/etches_source7.svg",
 			"minimap": "maps/etches_mini.jpg",
 			"locations":[
-				{
-					"id": "northshed",
-					"title": "Northshed",
-					"category": "HRE1",
-					"description": "TBC",
-					"pin": "hidden",
-					"about":"",
-					"show":"true",
-					"fill": "#FF0026",
-					"image": "",
-					"thumbnail": "",
-					"zoom":"2",
-					"x": "0.3400",
-					"y": "0.4750"
-				},
 				{
 					"id": "northshed",
 					"title": "Northshed",
