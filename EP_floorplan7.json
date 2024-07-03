@@ -71,28 +71,11 @@
 				},
 				
 				{
-					"id": "assemblyA",
-					"title": "Evac point A",
-					"category": "HRE3",
-					"description": "Located near South entrance at Deadmans Lane.",
-					"pin": "hidden",
-					"about":"",
-					"show":"true",
-					"fill": "#FF0026",
-					"image": "images/ep_ass_A.jpg",
-					"thumbnail": "images/ep_ass_A.jpg",
-					"zoom":"2",
-					"x": "0.9550",
-					"y": "0.8250"
-				},
-				{
 					"id": "assemblyB",
 					"title": "Evac point B",
 					"category": "HRE3",
 					"description": "TBC",
 					"pin": "hidden",
-					"about":"",
-					"show":"true",
 					"fill": "#FF0026",
 					"image": "images/ep_ass_B.jpg",
 					"thumbnail": "images/ep_ass_B.jpg",
@@ -100,14 +83,27 @@
 					"x": "0.4800",
 					"y": "0.4800"
 				},
+				
+				{
+					"id": "assemblyA",
+					"title": "Evac point A",
+					"category": "HRE3",
+					"description": "Located near South entrance at Deadmans Lane.",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_A.jpg",
+					"thumbnail": "images/ep_ass_A.jpg",
+					"zoom":"2",
+					"x": "0.9550",
+					"y": "0.8250"
+				},
+				
 				{
 					"id": "assemblyC",
 					"title": "Evac point C",
 					"category": "HRE3",
 					"description": "TBC",
 					"pin": "hidden",
-					"about":"",
-					"show":"true",
 					"fill": "#FF0026",
 					"image": "images/ep_ass_C.jpg",
 					"thumbnail": "images/ep_ass_C.jpg",
