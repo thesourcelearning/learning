@@ -71,7 +71,7 @@
 				},
 				
 				{
-					"id": "assemblyB",
+					"id": "Bassembly",
 					"title": "Evac point B",
 					"category": "HRE3",
 					"description": "TBC",
@@ -85,7 +85,7 @@
 				},
 				
 				{
-					"id": "assemblyA",
+					"id": "Aassembly",
 					"title": "Evac point A",
 					"category": "HRE3",
 					"description": "Located near South entrance at Deadmans Lane.",
@@ -99,7 +99,7 @@
 				},
 				
 				{
-					"id": "assemblyC",
+					"id": "Cassembly",
 					"title": "Evac point C",
 					"category": "HRE3",
 					"description": "TBC",
