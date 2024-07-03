@@ -12,13 +12,13 @@
 	 "id": "HRE1",
       "title": "North Shed",
       "color": "#2d2d2d",
-      "show": "false"
+      "show": "true"
 	 },
 	{
 	"id": "HRE2",
       "title": "4 Shed",
       "color": "#2d2d2d",
-      "show": "false"
+      "show": "true"
 	 },
 	{
 	"id": "HRE3",
