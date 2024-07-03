@@ -6,19 +6,19 @@
 	  "id": "HRE0",
       "title": "Etches Park Site",
       "color": "#2d2d2d",
-      "show": "false"
+      "show": "true"
 	 },
 	{
 	 "id": "HRE1",
       "title": "North Shed",
       "color": "#2d2d2d",
-      "show": "true"
+      "show": "false"
 	 },
 	{
 	"id": "HRE2",
       "title": "4 Shed",
       "color": "#2d2d2d",
-      "show": "true"
+      "show": "false"
 	 },
 	{
 	"id": "HRE3",
@@ -38,7 +38,7 @@
 			"locations":[
 				{
 					"id": "northshed",
-					"title": "Northshed",
+					"title": "North Shed",
 					"category": "HRE1",
 					"description": "TBC",
 					"pin": "hidden",
@@ -55,7 +55,7 @@
 				
 				{
 					"id": "shed",
-					"title": "4 shed",
+					"title": "4 Shed",
 					"category": "HRE2",
 					"description": "TBC",
 					"pin": "hidden",
