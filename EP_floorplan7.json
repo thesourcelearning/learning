@@ -10,13 +10,13 @@
 	 },
 	{
 	 "id": "HRE1",
-      "title": "North Shed",
+      "title": "North Shed Floorplan",
       "color": "#2d2d2d",
       "show": "false"
 	 },
 	{
 	"id": "HRE2",
-      "title": "4 Shed",
+      "title": "4 Shed Floorplan",
       "color": "#2d2d2d",
       "show": "false"
 	 },
@@ -24,7 +24,7 @@
 	"id": "HRE3",
       "title": "Assembly Points",
       "color": "#2d2d2d",
-      "show": "true"
+      "show": "false"
 	 }
 	
 	],
@@ -126,7 +126,6 @@
 					"category": "HRE1",
 					"description": "",
 					"pin": "hidden",
-					"show": "false",
 					"about":"",
 					"fill": "#FF0026",
 					"zoom":"0",
@@ -149,7 +148,6 @@
 				"category": "HRE2",
 				"description": "",
 				"pin": "hidden",
-				"show": "false",
 				"about":"",
 				"fill": "#FF0026",
 				"zoom":"0",
