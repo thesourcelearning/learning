@@ -37,7 +37,83 @@
 			"minimap": "maps/etches_mini.jpg",
 			"locations":[
 				{
-					
+					"id": "northshed",
+					"title": "Northshed",
+					"category": "HRE1",
+					"description": "TBC",
+					"pin": "hidden",
+					"about":"",
+					"show":"true",
+					"fill": "#FF0026",
+					"link": "?location=First_loc",
+					"image": "images/northshed.jpg",
+					"thumbnail": "images/northshed.jpg",
+					"zoom":"2",
+					"x": "0.3400",
+					"y": "0.4750"
+				},
+				
+				{
+					"id": "shed",
+					"title": "4 shed",
+					"category": "HRE2",
+					"description": "TBC",
+					"pin": "hidden",
+					"about":"",
+					"show":"true",
+					"fill": "#FF0026",
+					"link": "?location=Second_loc",
+					"image": "images/shed.jpg",
+					"thumbnail": "images/shed.jpg",
+					"zoom":"2",
+					"x": "0.2000",
+					"y": "0.2900"
+				},
+				
+				{
+					"id": "assemblyA",
+					"title": "Evac point A",
+					"category": "HRE3",
+					"description": "Located near South entrance at Deadmans Lane.",
+					"pin": "hidden",
+					"about":"",
+					"show":"true",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_A.jpg",
+					"thumbnail": "images/ep_ass_A.jpg",
+					"zoom":"2",
+					"x": "0.9550",
+					"y": "0.8250"
+				},
+				{
+					"id": "assemblyB",
+					"title": "Evac point B",
+					"category": "HRE3",
+					"description": "TBC",
+					"pin": "hidden",
+					"about":"",
+					"show":"true",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_B.jpg",
+					"thumbnail": "images/ep_ass_B.jpg",
+					"zoom":"2",
+					"x": "0.4800",
+					"y": "0.4800"
+				},
+				{
+					"id": "assemblyC",
+					"title": "Evac point C",
+					"category": "HRE3",
+					"description": "TBC",
+					"pin": "hidden",
+					"about":"",
+					"show":"true",
+					"fill": "#FF0026",
+					"image": "images/ep_ass_C.jpg",
+					"thumbnail": "images/ep_ass_C.jpg",
+					"zoom":"2",
+					"x": "0.2700",
+					"y": "0.4020"
 				}
 
 			]
@@ -52,7 +128,7 @@
 			"locations":[
 				{
 					"id": "First_loc",
-					"title": "NorthShed",
+					"title": "North Shed",
 					"category": "HRE0",
 					"description": "",
 					"pin": "hidden",
