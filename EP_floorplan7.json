@@ -70,7 +70,7 @@
 
 				{
 					"id": "Aassembly",
-					"title": "Evac point 1",
+					"title": "Assembly Point 1",
 					"category": "HRE3",
 					"description": "Located near South entrance at Deadmans Lane.",
 					"pin": "hidden",
@@ -84,7 +84,7 @@
 				
 				{
 					"id": "Bassembly",
-					"title": "Evac point 2",
+					"title": "Assembly Point 2",
 					"category": "HRE3",
 					"description": "Located near the Brunel Parkway entrance.",
 					"pin": "hidden",
@@ -98,7 +98,7 @@
 				
 				{
 					"id": "Cassembly",
-					"title": "Evac point 3",
+					"title": "Assembly Point 3",
 					"category": "HRE3",
 					"description": "Located in the car park between North Shed and 4 Shed",
 					"pin": "hidden",
