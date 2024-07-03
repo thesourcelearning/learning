@@ -12,13 +12,13 @@
 	 "id": "HRE1",
       "title": "North Shed",
       "color": "#2d2d2d",
-      "show": "true"
+      "show": "false"
 	 },
 	{
 	"id": "HRE2",
       "title": "4 Shed",
       "color": "#2d2d2d",
-      "show": "true"
+      "show": "false"
 	 },
 	{
 	"id": "HRE3",
@@ -39,7 +39,7 @@
 				{
 					"id": "northshed",
 					"title": "North Shed",
-					"category": "HRE1",
+					"category": "HRE0",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
@@ -55,7 +55,7 @@
 				{
 					"id": "shed",
 					"title": "4 Shed",
-					"category": "HRE2",
+					"category": "HRE0",
 					"description": "TBC",
 					"pin": "hidden",
 					"about":"",
@@ -122,7 +122,7 @@
 			"locations":[
 				{
 					"id": "First_loc",
-					"title": "North Shed",
+					"title": "North Shed Floorplan",
 					"category": "HRE1",
 					"description": "",
 					"pin": "hidden",
@@ -145,7 +145,7 @@
 			"locations":[
 			{
 				"id": "Second_loc",
-				"title": "4 Shed",
+				"title": "4 Shed Floorplan",
 				"category": "HRE2",
 				"description": "",
 				"pin": "hidden",
