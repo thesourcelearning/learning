@@ -123,7 +123,7 @@
 				{
 					"id": "First_loc",
 					"title": "North Shed",
-					"category": "HRE0",
+					"category": "HRE1",
 					"description": "",
 					"pin": "hidden",
 					"about":"",
@@ -145,7 +145,7 @@
 			{
 				"id": "Second_loc",
 				"title": "4 Shed",
-				"category": "HRE0",
+				"category": "HRE2",
 				"description": "",
 				"pin": "hidden",
 				"about":"",
