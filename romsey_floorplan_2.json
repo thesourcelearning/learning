@@ -33,8 +33,8 @@
 					"about":"",
 					"fill": "#FF0026",
 					"link": "?location=hreoffice",
-					"image": "images/holborn_main.jpg",
-					"thumbnail": "images/holborn_main.jpg",
+					"image": "images/romsey_site.jpg",
+					"thumbnail": "images/romsey_site.jpg",
 					"zoom":"1",
 					"x": "0.76181",
 					"y": "0.5116"
@@ -47,8 +47,8 @@
 					"description": "Assembly point located in adjacent carpark. ",
 					"pin": "hidden",
 					"fill": "#FF0026",
-					"image": "images/holborn_charter.jpg",
-					"thumbnail": "images/holborn_charter.jpg",
+					"image": "images/romsey_park.jpg",
+					"thumbnail": "images/romsey_park.jpg",
 					"zoom":"1",
 					"x": "0.66181",
 					"y": "0.4900"
