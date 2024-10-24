@@ -32,7 +32,7 @@
 					"pin": "hidden",
 					"about":"",
 					"fill": "#FF0026",
-					"link": "?location=hreoffice",
+					"link": "?location=Floorplan",
 					"image": "images/romsey_site.jpg",
 					"thumbnail": "images/romsey_site.jpg",
 					"zoom":"1",
@@ -62,8 +62,8 @@
 			"map":"maps/romsey_floorplan-01.svg",
 			"minimap": "maps/romesy_groundfloor_mini.jpg",
 			"locations":[
-			{				
-
+			{
+		
 				}
 
 			]
