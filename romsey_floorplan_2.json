@@ -25,7 +25,7 @@
 			"minimap": "maps/romsey_site_mini.jpg",
 			"locations":[
 				{
-					"id": "Hitachi Rail",
+					"id": "HitachiRail",
 					"title": "Hitachi Rail Romsey",
 					"category": "HRE1",
 					"description": "Perpetuum: Pioneering digital technology to optimise railway operations.",
@@ -41,7 +41,7 @@
 				},
 				
 				{
-					"id": "Assembley Point",
+					"id": "AssembleyPoint",
 					"title": "Assembly Point",
 					"category": "HRE1",
 					"description": "Assembly point located in adjacent carpark. ",
