@@ -37,7 +37,7 @@
 					"thumbnail": "images/holborn_main.jpg",
 					"zoom":"1",
 					"x": "0.76181",
-					"y": "0.5516"
+					"y": "0.5116"
 				},
 				
 				{
@@ -50,8 +50,8 @@
 					"image": "images/holborn_charter.jpg",
 					"thumbnail": "images/holborn_charter.jpg",
 					"zoom":"1",
-					"x": "0.59181",
-					"y": "0.4016"
+					"x": "0.69181",
+					"y": "0.5016"
 				}
 
 			]
