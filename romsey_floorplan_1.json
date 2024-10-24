@@ -1,0 +1,71 @@
+{
+	"mapwidth":"1920",
+	"mapheight":"1080",
+	"categories":[
+	{
+	  "id": "HRE1",
+      "title": "Hitachi Rail - Romsey",
+      "color": "#2d2d2d",
+      "show": "true"
+	 },
+	 	{
+	  "id": "HRE2",
+      "title": "Hitachi Rail - Romsey",
+      "color": "#2d2d2d",
+      "show": "true"
+	 }
+	
+	],
+	"levels":[
+		
+		{
+			"id":"Site",
+			"title":"Level selecter",
+			"map":"maps/romsey_map-01.svg",
+			"minimap": "maps/romsey_site_mini.jpg",
+			"locations":[
+				{
+					"id": "Hitachi Rail",
+					"title": "Hitachi Rail Romsey",
+					"category": "HRE1",
+					"description": "Perpetuum: Pioneering digital technology to optimise railway operations.",
+					"pin": "hidden",
+					"about":"",
+					"fill": "#FF0026",
+					"link": "?location=hreoffice",
+					"image": "images/holborn_main.jpg",
+					"thumbnail": "images/holborn_main.jpg",
+					"zoom":"1",
+					"x": "0.34181",
+					"y": "0.4016"
+				},
+				
+				{
+					"id": "Assembley Point",
+					"title": "Assembly Point",
+					"category": "HRE1",
+					"description": "Assembly point located in adjacent carpark. ",
+					"pin": "hidden",
+					"fill": "#FF0026",
+					"image": "images/holborn_charter.jpg",
+					"thumbnail": "images/holborn_charter.jpg",
+					"zoom":"1",
+					"x": "0.3008",
+					"y": "0.3765"
+				}
+
+			]
+		},
+				{
+			"id":"Site",
+			"title":"Level selecter",
+			"map":"romsey_floorplan-01.svg",
+			"minimap": "maps/romesy_groundfloor_mini.jpg",
+			"locations":[
+			{}
+
+			]
+		}
+
+	]
+}
